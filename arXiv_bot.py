@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  6 18:26:45 2019
 
-@author: 0000011331759
+@author: Chaitanya Narisetty
 """
 
 import os,requests,pandas,json,feedparser
@@ -103,8 +103,8 @@ def post(Texts,Web_hook_url,verify):
         requests.post(Web_hook_url, data = data,verify=verify)
 
 if __name__== '__main__':
-    verify='./verify/ZscalerRootCertificate.crt'
-    Web_hook_url = "Web hook url"
+    verify=True # or provide a link to appropriate ssl crt
+    Web_hook_url = "Web hook url" # provide an appropriate web hook
     posted_ids_file = './posted_ids.csv'
     if os.path.exists(posted_ids_file):
         posted_ids = pandas.read_csv(posted_ids_file,names=['ids'])
