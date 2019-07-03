@@ -85,6 +85,8 @@ def search(category,posted_ids,Texts,verify):
         posted_ids.extend(all_paper_info_sorted)
         Texts.extend(all_texts_sorted)
 
+        topics = getTopicList(category)
+
         return 0
 
 def post(category,Texts,Web_hook_url,verify):
@@ -105,3 +107,14 @@ def say_hello(Web_hook_url, verify):
             'link_names':1,}
     data = json.dumps(post).encode("utf-8")
     requests.post(Web_hook_url, data = data, verify = verify)
+
+def getTopicList(category):
+    if category == 'stat.ML':
+        topics = ['variational', 'inference', 'dynamic', 'bayesian', 'time series', \
+        'state space', 'cnn', 'rnn', 'pose estimation', 'human pose', 'mesh', 'texture', \
+        'gaussian', 'forecast', 'visualisation', 'compression', 'streaming', 'monocular', \
+        '3d', 'gradient', 'convolutional', 'regularization', 'synthesis', 'point cloud', \
+        'nonparametric', 'density estimation', 'latent variable model', 'non parametric', \
+        'medical', 'health', 'data augmentation', 'graphic', 'multi view', 'depth estimation',\
+        'autoencoder', 'linear regression']
+    return 0
