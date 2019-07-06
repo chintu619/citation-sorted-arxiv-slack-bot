@@ -116,5 +116,12 @@ def getTopicList(category):
         '3d', 'gradient', 'convolutional', 'regularization', 'synthesis', 'point cloud', \
         'nonparametric', 'density estimation', 'latent variable model', 'non parametric', \
         'medical', 'health', 'data augmentation', 'graphic', 'multi view', 'depth estimation',\
-        'autoencoder', 'linear regression']
+        'autoencoder', 'linear regression', 'lstm']
+
+    elif category == 'cs.CV':
+        topics = ['convolutional', 'neural network', 'cnn', 'rnn', 'texture', 'mesh', '3d', \
+        '3d object', 'point cloud', 'geometry', 'camera', 'graphic', 'depth estimation', 'monocular', \
+        'medical', 'health', 'image', 'video', 'temporal', 'real time', 'human', 'body', 'pose', 'estimation', \
+        'synthesis', 'camera pose', '3d surface', 'reconstruction', 'depth prediction', 'monocular', \
+        'camera calibration', 'uncalibrated', 'image compression', 'character', ]
     return 0
