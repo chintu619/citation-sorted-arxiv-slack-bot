@@ -14,15 +14,12 @@ import re
 import requests
 import sys
 import time
-from selenium import webdriver
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 _GOOGLEID = hashlib.md5(str(random.random()).encode('utf-8')).hexdigest()[:16]
 _COOKIES = {'GSP': 'ID={0}:CF=4'.format(_GOOGLEID)}
 _HEADERS = {
     'accept-language': 'en-US,en',
-    'User-Agent': 'Chrome/74.0.3729.169 Mozilla/5.0 (X11; Linux x86_64) ' + \
-        'AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36',
     'accept': 'text/html,application/xhtml+xml,application/xml'
     }
 _HOST = 'https://scholar.google.com'
@@ -41,6 +38,16 @@ _EMAILAUTHORRE = r'Verified email at '
 
 _SESSION = requests.Session()
 _PAGESIZE = 100
+
+
+def use_proxy(http='socks5://127.0.0.1:9050', https='socks5://127.0.0.1:9050'):
+    """ Routes scholarly through a proxy (e.g. tor).
+        Requires pysocks
+        Proxy must be running."""
+    _SESSION.proxies ={
+            'http': http,
+            'https': https
+    }
 
 
 def _handle_captcha(url):
@@ -67,23 +74,11 @@ def _handle_captcha(url):
     return resp_captcha.url
 
 
-#def _handle_429_ERROR(url):
-#    options = webdriver.ChromeOptions()
-#    caps = DesiredCapabilities().CHROME
-#    caps["pageLoadStrategy"] = "none"
-#    driver = webdriver.Chrome(desired_capabilities=caps, options=options)
-##    driver.maximize_window()
-#    driver.get(url); time.sleep(20)
-#
-#    driver.quit()
-
-
 def _get_page(pagerequest):
     """Return the data for a page on scholar.google.com"""
     # Note that we include a sleep to avoid overloading the scholar server
-    time.sleep(5+random.uniform(0, 5))
-    verify_crt = './verify/ZscalerRootCertificate.crt'
-    resp = _SESSION.get(pagerequest, headers=_HEADERS, cookies=_COOKIES, verify=verify_crt)
+    time.sleep(1+random.uniform(0, 1))
+    resp = _SESSION.get(pagerequest, headers=_HEADERS, cookies=_COOKIES)
     if resp.status_code == 200:
         return resp.text
     if resp.status_code == 503:
@@ -96,7 +91,7 @@ def _get_page(pagerequest):
         # resp = _handle_captcha(captcha_url)
         # return _get_page(re.findall(r'https:\/\/(?:.*?)(\/.*)', resp)[0])
     else:
-        raise Exception('Error: {0} {1} {2} {3}'.format(resp.status_code, resp.reason, resp.text, pagerequest))
+        raise Exception('Error: {0} {1}'.format(resp.status_code, resp.reason))
 
 
 def _get_soup(pagerequest):
@@ -130,6 +125,12 @@ def _search_citation_soup(soup):
             soup = _get_soup(_HOST+url)
         else:
             break
+
+def _find_tag_class_name(__data, tag, text):
+    elements = __data.find_all(tag)
+    for element in elements:
+        if 'class' in element.attrs and text in element.attrs['class'][0]:
+            return element.attrs['class'][0]
 
 
 class Publication(object):
@@ -204,6 +205,12 @@ class Publication(object):
                     self.bib['abstract'] = val
                 elif key == 'Total citations':
                     self.id_scholarcitedby = re.findall(_SCHOLARPUBRE, val.a['href'])[0]
+
+            # number of citation per year
+            years = [int(y.text) for y in soup.find_all(class_='gsc_vcd_g_t')]
+            cites = [int(c.text) for c in soup.find_all(class_='gsc_vcd_g_al')]
+            self.cites_per_year = dict(zip(years, cites))
+
             if soup.find('div', class_='gsc_vcd_title_ggi'):
                 self.bib['eprint'] = soup.find('div', class_='gsc_vcd_title_ggi').a['href']
             self._filled = True
@@ -238,16 +245,16 @@ class Author(object):
         else:
             self.id = re.findall(_CITATIONAUTHRE, __data('a')[0]['href'])[0]
             self.url_picture = _HOST+'/citations?view_op=medium_photo&user={}'.format(self.id)
-            self.name = __data.find('h3', class_='gs_ai_name').text
-            affiliation = __data.find('div', class_='gs_ai_aff')
+            self.name = __data.find('h3', class_=_find_tag_class_name(__data, 'h3', 'name')).text
+            affiliation = __data.find('div', class_=_find_tag_class_name(__data, 'div', 'aff'))
             if affiliation:
                 self.affiliation = affiliation.text
-            email = __data.find('div', class_='gs_ai_eml')
+            email = __data.find('div', class_=_find_tag_class_name(__data, 'div', 'eml'))
             if email:
                 self.email = re.sub(_EMAILAUTHORRE, r'@', email.text)
             self.interests = [i.text.strip() for i in
-                              __data.find_all('a', class_='gs_ai_one_int')]
-            citedby = __data.find('div', class_='gs_ai_cby')
+                           __data.find_all('a', class_=_find_tag_class_name(__data, 'a', 'one_int'))]
+            citedby = __data.find('div', class_=_find_tag_class_name(__data, 'div', 'cby'))
             if citedby and citedby.text != '':
                 self.citedby = int(citedby.text[9:])
         self._filled = False
@@ -278,6 +285,15 @@ class Author(object):
         cites = [int(c.text) for c in soup.find_all('span', class_='gsc_g_al')]
         self.cites_per_year = dict(zip(years, cites))
 
+        # co-authors
+        self.coauthors = []
+        for row in soup.find_all('span', class_='gsc_rsb_a_desc'):
+            new_coauthor = Author(re.findall(_CITATIONAUTHRE, row('a')[0]['href'])[0])
+            new_coauthor.name = row.find(tabindex="-1").text
+            new_coauthor.affiliation = row.find(class_="gsc_rsb_a_ext").text
+            self.coauthors.append(new_coauthor)
+
+
         self.publications = list()
         pubstart = 0
         while True:
@@ -290,6 +306,7 @@ class Author(object):
                 soup = _get_soup(_HOST+url)
             else:
                 break
+
         self._filled = True
         return self
 
@@ -331,4 +348,3 @@ def search_author_custom_url(url):
     soup = _get_soup(_HOST+url)
     return _search_citation_soup(soup)
 
-#search_query = scholarly.search_author('Li Shen, Tencent')
