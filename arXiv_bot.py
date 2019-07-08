@@ -57,7 +57,7 @@ def search(posted_ids,Texts,verify):
             paper_info['abstract'] = val['summary']
             paper_info['date'] = val['published']
 
-            if paper_info['url'] not in posted_ids:
+            if (paper_info['url'] not in posted_ids) and (paper_info['url'][-2:] == 'v1'):
                 if not flag_IPban:
                     citations = 0 # total citation count of the paper
                     # get a list of all the authors in the paper
