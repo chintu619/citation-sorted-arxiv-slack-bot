@@ -42,7 +42,7 @@ def search(posted_ids,Texts,verify):
     while True:
         counter = 0
         arXiv_url = 'http://export.arxiv.org/api/query?search_query='
-        query='(cat:stat.ML+OR+cat:cs.CV)&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending'
+        query='(cat:stat.ML+OR+cat:cs.CV+OR+cat:cs.LG)&start=0&max_results=150&sortBy=lastUpdatedDate&sortOrder=descending'
         arXiv_url = arXiv_url+query
         data = requests.get(arXiv_url,verify=verify).text
         entry_elements = feedparser.parse(data)['entries']
