@@ -39,10 +39,12 @@ def getAuthorCitations(author):
     return author_citation_count
 
 def search(posted_ids,Texts,verify):
+    posted_urls = list(posted_ids['url'])
     while True:
         counter = 0
         arXiv_url = 'http://export.arxiv.org/api/query?search_query='
-        query='(cat:stat.ML+OR+cat:cs.CV+OR+cat:cs.LG)&start=0&max_results=150&sortBy=lastUpdatedDate&sortOrder=descending'
+        query='(cat:stat.ML+OR+cat:cs.CV+OR+cat:cs.LG)&start=0&max_results=200' + \
+              '&sortBy=lastUpdatedDate&sortOrder=descending'
         arXiv_url = arXiv_url+query
         data = requests.get(arXiv_url,verify=verify).text
         entry_elements = feedparser.parse(data)['entries']
@@ -57,7 +59,7 @@ def search(posted_ids,Texts,verify):
             paper_info['abstract'] = val['summary']
             paper_info['date'] = val['published']
 
-            if (paper_info['url'] not in posted_ids) and (paper_info['url'][-2:] == 'v1'):
+            if (paper_info['url'] not in posted_urls) and (paper_info['url'][-2:] == 'v1'):
                 if not flag_IPban:
                     citations = 0 # total citation count of the paper
                     # get a list of all the authors in the paper
@@ -73,7 +75,9 @@ def search(posted_ids,Texts,verify):
                             flag_IPban = True
                             break
 
-                all_paper_info.append(paper_info['url'])
+                pub_date = paper_info['date'].split('T')[0]
+                title = ''.join(paper_info['title'].split('\n '))
+                all_paper_info.append([paper_info['url'],pub_date,citations,title])
                 paper_citation_count.append(citations)
                 counter += 1; print('Paper:', counter, 'Citations:', citations)
                 if citations is np.nan:
@@ -85,12 +89,12 @@ def search(posted_ids,Texts,verify):
 
         # rank the papers according to their authors' citation counts
         rankings = np.argsort(paper_citation_count)[::-1]
-        all_paper_info_sorted = [all_paper_info[rank] for rank in rankings]
         all_texts_sorted = [all_texts[rank] for rank in rankings]
-        posted_ids.extend(all_paper_info_sorted)
+        all_paper_info = pandas.DataFrame(all_paper_info, columns=['url','date','weight','title'])
+        posted_ids = pandas.concat((all_paper_info, posted_ids), ignore_index=True)
         Texts.extend(all_texts_sorted)
 
-        return 0
+        return posted_ids, Texts
 
 def post(Texts,Web_hook_url,verify):
     for val in Texts:
@@ -102,21 +106,71 @@ def post(Texts,Web_hook_url,verify):
         data = json.dumps(post).encode("utf-8")
         requests.post(Web_hook_url, data = data,verify=verify)
 
+def makeMarkdown(posted_ids):
+    yesterdate = (dt.date.today()- dt.timedelta(1)).strftime('%Y-%m-%d')
+    yesterday_papers = posted_ids.loc[posted_ids['date'] == yesterdate].reset_index(drop=1)
+
+    oneweekpastdate = (dt.date.today()- dt.timedelta(1+7)).strftime('%Y-%m-%d')
+    lastweek_papers = posted_ids.loc[(posted_ids['date'] <= yesterdate) & \
+                                     (posted_ids['date'] > oneweekpastdate)]
+    lastweek_papers = lastweek_papers.sort_values(by='weight', ascending=False \
+                                                 ).reset_index(drop=1)
+
+    with open('README.md', mode='r') as md_file:
+        markdown_prev = ''.join(md_file.readlines())
+
+    before_daily = markdown_prev.split("## Daily top 10\n")[0]
+    after_weekly = markdown_prev.split("## Weekly top 20\n")[1].split('</details>\n')
+    after_weekly = '</details>\n'.join(after_weekly[1:])
+
+    markdown = before_daily + "## Daily top 10\n"
+    for itr in range(len(yesterday_papers)):
+        paper = yesterday_papers.loc[itr]
+        if itr == 10:
+            markdown += "<details><summary>today's remaining papers</summary>\n" + \
+                        "  <ol start=11>\n"
+        if itr < 10:
+            markdown += str(itr+1)+ '. *'+paper['title']+'* [url]('+paper['url']+')\n'
+        else:
+            markdown += '    <li><i>'+paper['title']+'</i> <a href="'+\
+                                      paper['url']+'">url</a></li>\n'
+
+    if len(yesterday_papers) > 10: markdown += "  </ol>\n</details>\n\n" + "## Weekly top 20\n"
+    else: markdown += "<details><summary>today's remaining papers</summary>\n" + \
+                        "  <ol start=11>\n" + "  </ol>\n</details>\n\n" + "## Weekly top 20\n"
+
+    for itr in range(len(lastweek_papers)):
+        paper = lastweek_papers.loc[itr]
+        if itr == 20:
+            markdown += "<details><summary>this week's remaining papers</summary>\n" + \
+                        "  <ol start=21>\n"
+        if itr < 20:
+            markdown += str(itr+1)+ '. *'+paper['title']+'* [url]('+paper['url']+')\n'
+        else:
+            markdown += '    <li><i>'+paper['title']+'</i> <a href="'+\
+                                      paper['url']+'">url</a></li>\n'
+
+    if len(lastweek_papers) > 20: markdown += "  </ol>\n</details>\n" + after_weekly
+    else: markdown += "<details><summary>this week's remaining papers</summary>\n" + \
+                        "  <ol start=21>\n" + "  </ol>\n</details>\n" + after_weekly
+
+    with open('README.md', mode='w') as md_file: md_file.write(markdown)
+
 if __name__== '__main__':
     verify=True # or provide a link to appropriate ssl crt
     Web_hook_url = "Web hook url" # provide an appropriate web hook
     posted_ids_file = './posted_ids.csv'
     if os.path.exists(posted_ids_file):
-        posted_ids = pandas.read_csv(posted_ids_file,names=['ids'])
-        posted_ids = list(posted_ids['ids'])
+        posted_ids = pandas.read_csv(posted_ids_file)
     else:
-        posted_ids = []
+        posted_ids = pandas.DataFrame([], columns=['url', 'date', 'weight', 'title'])
 
     Texts = []
-    search(posted_ids,Texts,verify)
+    posted_ids, Texts = search(posted_ids,Texts,verify)
     try:
         post(Texts,Web_hook_url,verify)
     except:
         print('Error: Unable to post. Check the web-hook URL!')
-    df = pandas.DataFrame(posted_ids)
-    df.to_csv(posted_ids_file,header=False,index=False)
+    posted_ids = posted_ids.sort_values(by=['date','weight'], ascending=False).reset_index(drop=1)
+    posted_ids.to_csv(posted_ids_file, index=False)
+    makeMarkdown(posted_ids)
