@@ -43,13 +43,13 @@ def search(posted_ids,Texts,verify):
     while True:
         counter = 0
         arXiv_url = 'http://export.arxiv.org/api/query?search_query='
-        query='(cat:stat.ML+OR+cat:cs.CV+OR+cat:cs.LG)&start=0&max_results=200' + \
+        query='(cat:stat.ML+OR+cat:cs.CV+OR+cat:cs.LG)&start=0&max_results=300' + \
               '&sortBy=lastUpdatedDate&sortOrder=descending'
         arXiv_url = arXiv_url+query
         data = requests.get(arXiv_url,verify=verify).text
         entry_elements = feedparser.parse(data)['entries']
 
-        # WARNING: more than 100 papers per day can lead to temporary IP ban
+        # WARNING: more than 100 new papers per day can lead to temporary IP ban
         flag_IPban = False
         all_paper_info = []; all_texts = []; paper_citation_count = []
         for val in entry_elements:
@@ -154,7 +154,7 @@ def makeMarkdown(posted_ids):
     else: markdown += "<details><summary>this week's remaining papers</summary>\n" + \
                         "  <ol start=21>\n" + "  </ol>\n</details>\n" + after_weekly
 
-    with open('README.md', mode='w') as md_file: md_file.write(markdown)
+    with open('README.md', mode='w', encoding="utf-8") as md_file: md_file.write(markdown)
 
 if __name__== '__main__':
     verify=True # or provide a link to appropriate ssl crt
