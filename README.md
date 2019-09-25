@@ -1,7 +1,7 @@
-# citation-sorted-arxiv-slack-bot
+# citation-sorted-arxiv-slack-bot 
 
 ## Daily top 10
-1. *Recurrent Independent Mechanisms* [url](http://arxiv.org/abs/1909.10893v1)
+1. *Recurrent Independent Mechanisms* [url](http://arxiv.org/abs/1909.10893)
 2. *Do Massively Pretrained Language Models Make Better Storytellers?* [url](http://arxiv.org/abs/1909.10705v1)
 3. *LitGen: Genetic Literature Recommendation Guided by Human Explanations* [url](http://arxiv.org/abs/1909.10699v1)
 4. *Interactive Sketch & Fill: Multiclass Sketch-to-Image Translation* [url](http://arxiv.org/abs/1909.11081v1)
