@@ -1,4 +1,97 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1910.07115v1,2019-10-17,173215,HiGitClass: Keyword-Driven Hierarchical Classification of GitHub Repositories,2019-10-16
+http://arxiv.org/abs/1910.07022v1,2019-10-17,164847,Measuring the Completeness of Theories,2019-10-15
+http://arxiv.org/abs/1910.07320v1,2019-10-17,73449,The Blessings of Multiple Causes: A Reply to Ogburn et al. (2019),2019-10-15
+http://arxiv.org/abs/1910.06995v1,2019-10-17,45544,Reduced-Order Modeling of Deep Neural Networks,2019-10-15
+http://arxiv.org/abs/1910.07093v1,2019-10-17,42087,Explainable Semantic Mapping for First Responders,2019-10-15
+http://arxiv.org/abs/1910.07416v1,2019-10-17,36366,Understanding Misclassifications by Attributes,2019-10-15
+http://arxiv.org/abs/1910.07122v1,2019-10-17,34140,"Automated Detection of Left Ventricle in Arterial Input Function Images for Inline Perfusion Mapping using Deep Learning: A study of 15,000 Patients",2019-10-16
+http://arxiv.org/abs/1910.07373v1,2019-10-17,32943,Iterative augmentation of visual evidence for weakly-supervised lesion localization in deep interpretability frameworks,2019-10-16
+http://arxiv.org/abs/1910.07048v1,2019-10-17,30524,Wasserstein GANs for MR Imaging: from Paired to Unpaired Training,2019-10-15
+http://arxiv.org/abs/1910.07514v1,2019-10-17,29771,Designing Style Matching Conversational Agents,2019-10-16
+http://arxiv.org/abs/1910.07479v1,2019-10-17,23540,Conditional Importance Sampling for Off-Policy Learning,2019-10-16
+http://arxiv.org/abs/1910.07113v1,2019-10-17,23225,Solving Rubik's Cube with a Robot Hand,2019-10-16
+http://arxiv.org/abs/1910.06985v1,2019-10-17,21483,How a minimal learning agent can infer the existence of unobserved variables in a complex environment,2019-10-15
+http://arxiv.org/abs/1910.07454v1,2019-10-17,19589,An Exponential Learning Rate Schedule for Deep Learning,2019-10-16
+http://arxiv.org/abs/1910.07428v1,2019-10-17,17685,Gaze Gestures and Their Applications in human-computer interaction with a head-mounted display,2019-10-16
+http://arxiv.org/abs/1910.07475v1,2019-10-17,17015,MLQA: Evaluating Cross-lingual Extractive Question Answering,2019-10-16
+http://arxiv.org/abs/1910.06991v1,2019-10-17,16996,"Discussion of ""The Blessings of Multiple Causes"" by Wang and Blei",2019-10-15
+http://arxiv.org/abs/1910.07323v1,2019-10-17,16459,Lead2Gold: Towards exploiting the full potential of noisy transcriptions for speech recognition,2019-10-16
+http://arxiv.org/abs/1910.07030v1,2019-10-17,16338,SGD Learns One-Layer Networks in WGANs,2019-10-15
+http://arxiv.org/abs/1910.07291v1,2019-10-17,14512,Newton vs the machine: solving the chaotic three-body problem using deep neural networks,2019-10-16
+http://arxiv.org/abs/1910.07003v1,2019-10-17,14421,Constrained Bayesian Optimization with Max-Value Entropy Search,2019-10-15
+http://arxiv.org/abs/1910.06996v1,2019-10-17,13691,Adaptive Exploration in Linear Contextual Bandit,2019-10-15
+http://arxiv.org/abs/1910.07254v1,2019-10-17,12906,Audio-Conditioned U-Net for Position Estimation in Full Sheet Images,2019-10-16
+http://arxiv.org/abs/1910.07478v1,2019-10-17,11985,Adaptive Trade-Offs in Off-Policy Learning,2019-10-16
+http://arxiv.org/abs/1910.07186v1,2019-10-17,11519,Doubly Robust Bias Reduction in Infinite Horizon Off-Policy Estimation,2019-10-16
+http://arxiv.org/abs/1910.07038v1,2019-10-17,11011,Attention Network Robustification for Person ReID,2019-10-15
+http://arxiv.org/abs/1910.07089v1,2019-10-17,10342,Challenges of Human-Aware AI Systems,2019-10-15
+http://arxiv.org/abs/1910.07360v1,2019-10-17,9658,Conservation AI: Live Stream Analysis for the Detection of Endangered Species Using Convolutional Neural Networks and Drone Technology,2019-10-16
+http://arxiv.org/abs/1910.07224v1,2019-10-17,8867,Teacher algorithms for curriculum learning of Deep RL in continuously parameterized environments,2019-10-16
+http://arxiv.org/abs/1910.07487v1,2019-10-17,7310,Embodiment dictates learnability in neural controllers,2019-10-15
+http://arxiv.org/abs/1910.07117v1,2019-10-17,7092,Mix-review: Alleviate Forgetting in the Pretrain-Finetune Framework for Neural Language Generation Models,2019-10-16
+http://arxiv.org/abs/1910.07210v1,2019-10-17,6816,On Learning Paradigms for the Travelling Salesman Problem,2019-10-16
+http://arxiv.org/abs/1910.07476v1,2019-10-17,6114,Hidden Unit Specialization in Layered Neural Networks: ReLU vs. Sigmoidal Activation,2019-10-16
+http://arxiv.org/abs/1910.07234v1,2019-10-17,5602,Aerial Images Processing for Car Detection using Convolutional Neural Networks: Comparison between Faster R-CNN and YoloV3,2019-10-16
+http://arxiv.org/abs/1910.07407v1,2019-10-17,5425,The Heidelberg spiking datasets for the systematic evaluation of spiking neural networks,2019-10-16
+http://arxiv.org/abs/1910.07483v1,2019-10-17,5173,MAVEN: Multi-Agent Variational Exploration,2019-10-16
+http://arxiv.org/abs/1910.07410v1,2019-10-17,4962,Rugby-Bot: Utilizing Multi-Task Learning & Fine-Grained Features for Rugby League Analysis,2019-10-16
+http://arxiv.org/abs/1910.07150v1,2019-10-17,4741,Joint Learning of Word and Label Embeddings for Sequence Labelling in Spoken Language Understanding,2019-10-16
+http://arxiv.org/abs/1910.07486v1,2019-10-17,4644,LOST: A flexible framework for semi-automatic image annotation,2019-10-16
+http://arxiv.org/abs/1910.07344v1,2019-10-17,4054,Conditional Invertible Flow for Point Cloud Generation,2019-10-16
+http://arxiv.org/abs/1910.07467v1,2019-10-17,3586,Root Mean Square Layer Normalization,2019-10-16
+http://arxiv.org/abs/1910.07153v1,2019-10-17,3454,Consistency-Based Semi-Supervised Active Learning: Towards Minimizing Labeling Cost,2019-10-16
+http://arxiv.org/abs/1910.06988v1,2019-10-17,3424,Autonomous Aerial Cinematography In Unstructured Environments With Learned Artistic Decision-Making,2019-10-15
+http://arxiv.org/abs/1910.07470v1,2019-10-17,3338,A Survey on Recent Advancements for AI Enabled Radiomics in Neuro-Oncology,2019-10-16
+http://arxiv.org/abs/1910.07225v1,2019-10-17,2867,Structural Analysis of Sparse Neural Networks,2019-10-16
+http://arxiv.org/abs/1910.07474v1,2019-10-17,2769,Universal Marginaliser for Deep Amortised Inference for Probabilistic Programs,2019-10-16
+http://arxiv.org/abs/1910.07421v1,2019-10-17,2455,Deep Reinforcement Learning meets Graph Neural Networks: An optical network routing use case,2019-10-16
+http://arxiv.org/abs/1910.07169v1,2019-10-17,2162,Generative Modeling for Small-Data Object Detection,2019-10-16
+http://arxiv.org/abs/1910.07333v1,2019-10-17,2113,A Probabilistic Framework for Learning Domain Specific Hierarchical Word Embeddings,2019-10-16
+http://arxiv.org/abs/1910.07123v1,2019-10-17,1983,Sparse Gaussian Process Regression Beyond Variational Inference,2019-10-16
+http://arxiv.org/abs/1910.07133v1,2019-10-17,1889,Design of a Simple Orthogonal Multiwavelet Filter by Matrix Spectral Factorization,2019-10-16
+http://arxiv.org/abs/1910.07042v1,2019-10-17,1788,MUTE: Data-Similarity Driven Multi-hot Target Encoding for Neural Network Design,2019-10-15
+http://arxiv.org/abs/1910.07265v1,2019-10-17,1525,Optimising Individual-Treatment-Effect Using Bandits,2019-10-16
+http://arxiv.org/abs/1910.07423v1,2019-10-17,1454,On the Global Optima of Kernelized Adversarial Representation Learning,2019-10-16
+http://arxiv.org/abs/1910.07425v1,2019-10-17,1375,Modeling Sequences with Quantum States: A Look Under the Hood,2019-10-16
+http://arxiv.org/abs/1910.07212v1,2019-10-17,1360,Tutorial on NLP-Inspired Network Embedding,2019-10-16
+http://arxiv.org/abs/1910.07459v1,2019-10-17,1175,Creativity in Robot Manipulation with Deep Reinforcement Learning,2019-10-16
+http://arxiv.org/abs/1910.07368v1,2019-10-17,1155,Model-Agnostic Meta-Learning using Runge-Kutta Methods,2019-10-16
+http://arxiv.org/abs/1910.07498v1,2019-10-17,1146,Actor-Critic Provably Finds Nash Equilibria of Linear-Quadratic Mean-Field Games,2019-10-16
+http://arxiv.org/abs/1910.07328v1,2019-10-17,1083,Segmentation Criteria in the Problem of Porosity Determination based on CT Scans,2019-10-16
+http://arxiv.org/abs/1910.07070v1,2019-10-17,1007,DeepErase: Weakly Supervised Ink Artifact Removal in Document Text Images,2019-10-15
+http://arxiv.org/abs/1910.07104v1,2019-10-17,902,Orthogonal Gradient Descent for Continual Learning,2019-10-15
+http://arxiv.org/abs/1910.07283v1,2019-10-17,870,"FISHDBC: Flexible, Incremental, Scalable, Hierarchical Density-Based Clustering for Arbitrary Data and Distance",2019-10-16
+http://arxiv.org/abs/1910.07201v1,2019-10-17,855,Electro-Magnetic Side-Channel Attack Through Learned Denoising and Classification,2019-10-16
+http://arxiv.org/abs/1910.07387v1,2019-10-17,558,Explaining with Impact: A Machine-centric Strategy to Quantify the Performance of Explainability Algorithms,2019-10-16
+http://arxiv.org/abs/1910.07236v1,2019-10-17,554,Transform the Set: Memory Attentive Generation of Guided and Unguided Image Collages,2019-10-16
+http://arxiv.org/abs/1910.07485v1,2019-10-17,481,Excess risk bounds in robust empirical risk minimization,2019-10-16
+http://arxiv.org/abs/1910.07192v1,2019-10-17,460,Animating Landscape: Self-Supervised Learning of Decoupled Motion and Appearance for Single-Image Video Synthesis,2019-10-16
+http://arxiv.org/abs/1910.07364v1,2019-10-17,323,Frequency and temporal convolutional attention for text-independent speaker recognition,2019-10-16
+http://arxiv.org/abs/1910.07174v1,2019-10-17,226,Multiclass spectral feature scaling method for dimensionality reduction,2019-10-16
+http://arxiv.org/abs/1910.07497v1,2019-10-17,167,Self-supervised Learning for ECG-based Emotion Recognition,2019-10-14
+http://arxiv.org/abs/1910.07047v1,2019-10-17,134,Analyzing Large Receptive Field Convolutional Networks for Distant Speech Recognition,2019-10-15
+http://arxiv.org/abs/1910.07056v1,2019-10-17,47,Variable Metric Proximal Gradient Method with Diagonal Barzilai-Borwein Stepsize,2019-10-15
+http://arxiv.org/abs/1910.07067v1,2019-10-17,42,On adversarial patches: real-world attack on ArcFace-100 face recognition system,2019-10-15
+http://arxiv.org/abs/1910.07294v1,2019-10-17,38,Reinforcement Learning for Robotic Manipulation using Simulated Locomotion Demonstrations,2019-10-16
+http://arxiv.org/abs/1910.07172v1,2019-10-17,9,Hyper: Distributed Cloud Processing for Large-Scale Deep Learning Tasks,2019-10-16
+http://arxiv.org/abs/1910.07129v1,2019-10-17,7,Large-Scale Landslides Detection from Satellite Images with Incomplete Labels,2019-10-16
+http://arxiv.org/abs/1910.07012v1,2019-10-17,6,Transfer Learning for Algorithm Recommendation,2019-10-15
+http://arxiv.org/abs/1910.07402v1,2019-10-17,4,JSDoop and TensorFlow.js: Volunteer Distributed Web Browser-Based Neural Network Training,2019-10-12
+http://arxiv.org/abs/1910.07512v1,2019-10-17,0,On Solving Minimax Optimization Locally: A Follow-the-Ridge Approach,2019-10-16
+http://arxiv.org/abs/1910.07395v1,2019-10-17,0,Offline handwritten mathematical symbol recognition utilising deep learning,2019-10-16
+http://arxiv.org/abs/1910.07392v1,2019-10-17,0,Reinforced Bit Allocation under Task-Driven Semantic Distortion Metrics,2019-10-16
+http://arxiv.org/abs/1910.07331v1,2019-10-17,0,A Generalized and Robust Method Towards Practical Gaze Estimation on Smart Phone,2019-10-16
+http://arxiv.org/abs/1910.07325v1,2019-10-17,0,Multivariate Forecasting Evaluation: On Sensitive and Strictly Proper Scoring Rules,2019-10-16
+http://arxiv.org/abs/1910.07295v1,2019-10-17,0,Unsupervised Domain Adaptation Meets Offline Recommender Learning,2019-10-16
+http://arxiv.org/abs/1910.07247v1,2019-10-17,0,A Notion of Harmonic Clustering in Simplicial Complexes,2019-10-16
+http://arxiv.org/abs/1910.07207v1,2019-10-17,0,Soft Actor-Critic for Discrete Action Settings,2019-10-16
+http://arxiv.org/abs/1910.07178v1,2019-10-17,0,Generative Learning of Counterfactual for Synthetic Control Applications in Econometrics,2019-10-16
+http://arxiv.org/abs/1910.07162v1,2019-10-17,0,Conditional Learning of Fair Representations,2019-10-16
+http://arxiv.org/abs/1910.07151v1,2019-10-17,0,Negatively Correlated Search as a Parallel Exploration Search Strategy,2019-10-16
+http://arxiv.org/abs/1910.07099v1,2019-10-17,0,Conversion Rate Prediction via Post-Click Behaviour Modeling,2019-10-15
+http://arxiv.org/abs/1910.07072v1,2019-10-17,0,Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes,2019-10-15
+http://arxiv.org/abs/1910.06990v1,2019-10-17,0,The Rényi Gaussian Process,2019-10-15
 http://arxiv.org/abs/1910.06663v1,2019-10-16,115479,AI Benchmark: All About Deep Learning on Smartphones in 2019,2019-10-15
 http://arxiv.org/abs/1910.06635v1,2019-10-16,73103,Liver segmentation and metastases detection in MR images using convolutional neural networks,2019-10-15
 http://arxiv.org/abs/1910.06532v1,2019-10-16,71694,Adaptive Step Sizes in Variance Reduction via Regularization,2019-10-15
