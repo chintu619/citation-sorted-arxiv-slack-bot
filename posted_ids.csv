@@ -1,4 +1,240 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1910.08922v1,2019-10-22,217438,Predicting ice flow using machine learning,2019-10-20
+http://arxiv.org/abs/1910.09185v1,2019-10-22,97992,Transferable Recognition-Aware Image Processing,2019-10-21
+http://arxiv.org/abs/1910.09191v1,2019-10-22,92946,Regularization Matters in Policy Optimization,2019-10-21
+http://arxiv.org/abs/1910.08845v1,2019-10-22,90578,ProxIQA: A Proxy Approach to Perceptual Optimization of Learned Image Compression,2019-10-19
+http://arxiv.org/abs/1910.09430v1,2019-10-22,72341,Adversarial Skill Networks: Unsupervised Robot Skill Learning from Video,2019-10-21
+http://arxiv.org/abs/1910.09508v1,2019-10-22,68677,Multi-agent Hierarchical Reinforcement Learning with Dynamic Termination,2019-10-21
+http://arxiv.org/abs/1910.08965v1,2019-10-22,68287,Learning GANs and Ensembles Using Discrepancy,2019-10-20
+http://arxiv.org/abs/1910.09255v1,2019-10-22,65811,Constructing Artificial Data for Fine-tuning for Low-Resource Biomedical Text Tagging with Applications in PICO Annotation,2019-10-21
+http://arxiv.org/abs/1910.09056v1,2019-10-22,63683,Amortized Rejection Sampling in Universal Probabilistic Programming,2019-10-20
+http://arxiv.org/abs/1910.09388v1,2019-10-22,43336,An Unbiased Risk Estimator for Learning with Augmented Classes,2019-10-21
+http://arxiv.org/abs/1910.09281v1,2019-10-22,40584,Dealing with Sparse Rewards in Reinforcement Learning,2019-10-21
+http://arxiv.org/abs/1910.09496v1,2019-10-22,35717,Policy Optimization for $\mathcal{H}_2$ Linear Control with $\mathcal{H}_\infty$ Robustness Guarantee: Implicit Regularization and Global Convergence,2019-10-21
+http://arxiv.org/abs/1910.08823v1,2019-10-22,33386,NormGrad: Finding the Pixels that Matter for Training,2019-10-19
+http://arxiv.org/abs/1910.09092v1,2019-10-22,33155,Fast Exact Matrix Completion: A Unifying Optimization Framework,2019-10-21
+http://arxiv.org/abs/1910.09358v1,2019-10-22,32307,Making Bayesian Predictive Models Interpretable: A Decision Theoretic Approach,2019-10-21
+http://arxiv.org/abs/1910.09113v1,2019-10-22,29802,Discovering the Compositional Structure of Vector Representations with Role Learning Networks,2019-10-21
+http://arxiv.org/abs/1910.08613v1,2019-10-22,28262,Poisson CNN: Convolutional Neural Networks for the Solution of the Poisson Equation with Varying Meshes and Dirichlet Boundary Conditions,2019-10-18
+http://arxiv.org/abs/1910.08952v1,2019-10-22,27648,i-RIM applied to the fastMRI challenge,2019-10-20
+http://arxiv.org/abs/1910.09338v1,2019-10-22,27617,An Alternative Surrogate Loss for PGD-based Adversarial Testing,2019-10-21
+http://arxiv.org/abs/1910.09234v1,2019-10-22,25940,Learning a Generic Adaptive Wavelet Shrinkage Function for Denoising,2019-10-21
+http://arxiv.org/abs/1910.09057v1,2019-10-22,25441,An Optimal Transport Framework for Zero-Shot Learning,2019-10-20
+http://arxiv.org/abs/1910.09217v1,2019-10-22,23207,Decoupling Representation and Classifier for Long-Tailed Recognition,2019-10-21
+http://arxiv.org/abs/1910.08864v1,2019-10-22,19687,Identification of Interaction Clusters Using a Semi-supervised Hierarchical Clustering Method,2019-10-20
+http://arxiv.org/abs/1910.09103v1,2019-10-22,18294,Predicting origin-destination ride-sourcing demand with a spatio-temporal encoder-decoder residual multi-graph convolutional network,2019-10-17
+http://arxiv.org/abs/1910.08657v1,2019-10-22,18150,Temporal Network Sampling,2019-10-18
+http://arxiv.org/abs/1910.08761v1,2019-10-22,17081,Component Attention Guided Face Super-Resolution Network: CAGFace,2019-10-19
+http://arxiv.org/abs/1910.09324v1,2019-10-22,16982,Multi-dimensional Features for Prediction with Tweets,2019-10-15
+http://arxiv.org/abs/1910.09188v1,2019-10-22,14866,"CSID: Center, Scale, Identity and Density-aware Pedestrian Detection in a Crowd",2019-10-21
+http://arxiv.org/abs/1910.09036v1,2019-10-22,14662,Differentiable Deep Clustering with Cluster Size Constraints,2019-10-20
+http://arxiv.org/abs/1910.09259v1,2019-10-22,14587,Bayesian Optimization Allowing for Common Random Numbers,2019-10-21
+http://arxiv.org/abs/1910.09279v1,2019-10-22,14449,Extracting local switching fields in permanent magnets using machine learning,2019-10-21
+http://arxiv.org/abs/1910.09457v1,2019-10-22,13918,Aleatoric and Epistemic Uncertainty in Machine Learning: A Tutorial Introduction,2019-10-21
+http://arxiv.org/abs/1910.09464v1,2019-10-22,12882,Learning to Learn by Zeroth-Order Oracle,2019-10-21
+http://arxiv.org/abs/1910.08974v1,2019-10-22,12810,Mitigating Overfitting in Supervised Classification from Two Unlabeled Datasets: A Consistent Risk Correction Approach,2019-10-20
+http://arxiv.org/abs/1910.09399v1,2019-10-22,12797,A Survey and Taxonomy of Adversarial Neural Networks for Text-to-Image Synthesis,2019-10-21
+http://arxiv.org/abs/1910.08945v1,2019-10-22,12412,Online Bagging for Anytime Transfer Learning,2019-10-20
+http://arxiv.org/abs/1910.09116v1,2019-10-22,12061,Self-Supervised Physics-Based Deep Learning MRI Reconstruction Without Fully-Sampled Data,2019-10-21
+http://arxiv.org/abs/1910.09070v1,2019-10-22,11673,Structured Prediction Helps 3D Human Motion Modelling,2019-10-20
+http://arxiv.org/abs/1910.08589v1,2019-10-22,11549,Decoupling feature propagation from the design of graph auto-encoders,2019-10-18
+http://arxiv.org/abs/1910.09091v1,2019-10-22,11487,Multi-User MABs with User Dependent Rewards for Uncoordinated Spectrum Access,2019-10-21
+http://arxiv.org/abs/1910.09089v1,2019-10-22,11487,Multi-player Multi-Armed Bandits with non-zero rewards on collisions for uncoordinated spectrum access,2019-10-21
+http://arxiv.org/abs/1910.08883v1,2019-10-22,11316,The Exact Equivalence of Independence Testing and Two-Sample Testing,2019-10-20
+http://arxiv.org/abs/1910.09086v1,2019-10-22,11002,Contextual Prediction Difference Analysis,2019-10-21
+http://arxiv.org/abs/1910.09085v1,2019-10-22,11002,Semantics for Global and Local Interpretation of Deep Neural Networks,2019-10-21
+http://arxiv.org/abs/1910.08802v1,2019-10-22,10978,Opinion shaping in social networks using reinforcement learning,2019-10-19
+http://arxiv.org/abs/1910.09182v1,2019-10-22,10077,Hadamard Codebook Based Deep Hashing,2019-10-21
+http://arxiv.org/abs/1910.09524v1,2019-10-22,10045,Cascaded Generation of High-quality Color Visible Face Images from Thermal Captures,2019-10-21
+http://arxiv.org/abs/1910.09471v1,2019-10-22,9969,Modelling Generalized Forces with Reinforcement Learning for Sim-to-Real Transfer,2019-10-21
+http://arxiv.org/abs/1910.08636v1,2019-10-22,9960,The TCGA Meta-Dataset Clinical Benchmark,2019-10-18
+http://arxiv.org/abs/1910.08734v1,2019-10-22,9618,CreditPrint: Credit Investigation via Geographic Footprints by Deep Learning,2019-10-19
+http://arxiv.org/abs/1910.09266v1,2019-10-22,9544,Multi-Band Multi-Resolution Fully Convolutional Neural Networks for Singing Voice Separation,2019-10-21
+http://arxiv.org/abs/1910.08910v1,2019-10-22,9345,Enhancing Recurrent Neural Networks with Sememes,2019-10-20
+http://arxiv.org/abs/1910.09387v1,2019-10-22,9099,Clotho: An Audio Captioning Dataset,2019-10-21
+http://arxiv.org/abs/1910.08809v1,2019-10-22,9050,A Structured Prediction Approach for Generalization in Cooperative Multi-Agent Reinforcement Learning,2019-10-19
+http://arxiv.org/abs/1910.09239v1,2019-10-22,8926,Recovering Localized Adversarial Attacks,2019-10-21
+http://arxiv.org/abs/1910.08606v1,2019-10-22,8337,AI Safety for High Energy Physics,2019-10-18
+http://arxiv.org/abs/1910.08683v1,2019-10-22,8084,ELSA: A Throughput-Optimized Design of an LSTM Accelerator for Energy-Constrained Devices,2019-10-19
+http://arxiv.org/abs/1910.09244v1,2019-10-22,7778,Batch Face Alignment using a Low-rank GAN,2019-10-21
+http://arxiv.org/abs/1910.09139v1,2019-10-22,7507,DwNet: Dense warp-based network for pose-guided human video generation,2019-10-21
+http://arxiv.org/abs/1910.09284v1,2019-10-22,7408,Model Order Selection in DoA Scenarios via Cross-Entropy based Machine Learning Techniques,2019-10-21
+http://arxiv.org/abs/1910.09466v1,2019-10-22,7275,Sparsification as a Remedy for Staleness in Distributed Asynchronous SGD,2019-10-21
+http://arxiv.org/abs/1910.09417v1,2019-10-22,7240,Maximum Probability Principle and Black-Box Priors,2019-10-21
+http://arxiv.org/abs/1910.08812v1,2019-10-22,6608,Deep Parametric Indoor Lighting Estimation,2019-10-19
+http://arxiv.org/abs/1910.09349v1,2019-10-22,6352,Variational Integrator Networks for Physically Meaningful Embeddings,2019-10-21
+http://arxiv.org/abs/1910.08967v1,2019-10-22,6236,Image Difficulty Curriculum for Generative Adversarial Networks (CuGAN),2019-10-20
+http://arxiv.org/abs/1910.09505v1,2019-10-22,6207,Multi-Resolution Weak Supervision for Sequential Data,2019-10-21
+http://arxiv.org/abs/1910.09223v1,2019-10-22,5979,Aggregated Gradient Langevin Dynamics,2019-10-21
+http://arxiv.org/abs/1910.09398v1,2019-10-22,5934,Towards User Empowerment,2019-10-21
+http://arxiv.org/abs/1910.09040v1,2019-10-22,5824,Landing Probabilities of Random Walks for Seed-Set Expansion in Hypergraphs,2019-10-20
+http://arxiv.org/abs/1910.08737v1,2019-10-22,5537,Utilising Low Complexity CNNs to Lift Non-Local Redundancies in Video Coding,2019-10-19
+http://arxiv.org/abs/1910.09322v1,2019-10-22,5117,Momentum in Reinforcement Learning,2019-10-21
+http://arxiv.org/abs/1910.09090v1,2019-10-22,5006,A game method for improving the interpretability of convolution neural network,2019-10-21
+http://arxiv.org/abs/1910.09100v1,2019-10-22,4693,Biologic and Prognostic Feature scores from Whole-Slide Histology Images Using Deep Learning,2019-10-21
+http://arxiv.org/abs/1910.09061v1,2019-10-22,4679,Deep Mouse: An End-to-end Auto-context Refinement Framework for Brain Ventricle and Body Segmentation in Embryonic Mice Ultrasound Volumes,2019-10-20
+http://arxiv.org/abs/1910.08918v1,2019-10-22,4426,Neuro-SERKET: Development of Integrative Cognitive System through the Composition of Deep Probabilistic Generative Models,2019-10-20
+http://arxiv.org/abs/1910.09451v1,2019-10-22,4391,Self-Educated Language Agent With Hindsight Experience Replay For Instruction Following,2019-10-21
+http://arxiv.org/abs/1910.08581v1,2019-10-22,4361,Towards Quantifying Intrinsic Generalization of Deep ReLU Networks,2019-10-18
+http://arxiv.org/abs/1910.09469v1,2019-10-22,4283,Object landmark discovery through unsupervised adaptation,2019-10-21
+http://arxiv.org/abs/1910.08862v1,2019-10-22,4137,LSTM-Assisted Evolutionary Self-Expressive Subspace Clustering,2019-10-19
+http://arxiv.org/abs/1910.08795v1,2019-10-22,4080,Online Ranking with Concept Drifts in Streaming Data,2019-10-19
+http://arxiv.org/abs/1910.08685v1,2019-10-22,3407,Real-Time Lip Sync for Live 2D Animation,2019-10-19
+http://arxiv.org/abs/1910.08640v1,2019-10-22,3383,Are Perceptually-Aligned Gradients a General Property of Robust Classifiers?,2019-10-18
+http://arxiv.org/abs/1910.09458v1,2019-10-22,3337,Improving Vehicle Re-Identification using CNN Latent Spaces: Metrics Comparison and Track-to-track Extension,2019-10-21
+http://arxiv.org/abs/1910.09359v1,2019-10-22,3330,Separable Convolutional Eigen-Filters (SCEF): Building Efficient CNNs Using Redundancy Analysis,2019-10-21
+http://arxiv.org/abs/1910.09351v1,2019-10-22,3322,Theoretical Investigation of Composite Neural Network,2019-10-18
+http://arxiv.org/abs/1910.09420v1,2019-10-22,3292,Modeling Disease Progression In Retinal OCTs With Longitudinal Self-Supervised Learning,2019-10-21
+http://arxiv.org/abs/1910.09309v1,2019-10-22,3223,Learning Hierarchical Feature Space Using CLAss-specific Subspace Multiple Kernel -- Metric Learning for Classification,2019-10-21
+http://arxiv.org/abs/1910.09483v1,2019-10-22,3164,Sampling random graph homomorphisms and applications to network data analysis,2019-10-21
+http://arxiv.org/abs/1910.08735v1,2019-10-22,3106,Tracking-Assisted Segmentation of Biological Cells,2019-10-19
+http://arxiv.org/abs/1910.09115v1,2019-10-22,3072,Unsupervised Out-of-Distribution Detection with Batch Normalization,2019-10-21
+http://arxiv.org/abs/1910.08926v1,2019-10-22,3045,Policy Learning for Malaria Control,2019-10-20
+http://arxiv.org/abs/1910.09446v1,2019-10-22,2957,Zero-shot Learning via Simultaneous Generating and Learning,2019-10-21
+http://arxiv.org/abs/1910.09495v1,2019-10-22,2868,S4NN: temporal backpropagation for spiking neural networks with one spike per neuron,2019-10-21
+http://arxiv.org/abs/1910.09532v1,2019-10-22,2833,Building Dynamic Knowledge Graphs from Text-based Games,2019-10-21
+http://arxiv.org/abs/1910.09024v1,2019-10-22,2679,Boosting Network Weight Separability via Feed-Backward Reconstruction,2019-10-20
+http://arxiv.org/abs/1910.08995v1,2019-10-22,2530,SANet:Superpixel Attention Network for Skin Lesion Attributes Detection,2019-10-20
+http://arxiv.org/abs/1910.08650v1,2019-10-22,2503,Toward Metrics for Differentiating Out-of-Distribution Sets,2019-10-18
+http://arxiv.org/abs/1910.09165v1,2019-10-22,2358,MeteorNet: Deep Learning on Dynamic 3D Point Cloud Sequences,2019-10-21
+http://arxiv.org/abs/1910.08800v1,2019-10-22,2338,Kernels of Mallows Models under the Hamming Distance for solving the Quadratic Assignment Problem,2019-10-19
+http://arxiv.org/abs/1910.08778v1,2019-10-22,2214,Measurement Dependence Inducing Latent Causal Models,2019-10-19
+http://arxiv.org/abs/1910.09340v1,2019-10-22,2166,Gradient Boosted Decision Tree Neural Network,2019-10-17
+http://arxiv.org/abs/1910.09472v1,2019-10-22,2097,A Logic-Based Framework Leveraging Neural Networks for Studying the Evolution of Neurological Disorders,2019-10-21
+http://arxiv.org/abs/1910.08593v1,2019-10-22,1973,Generative Adversarial Networks And Domain Adaptation For Training Data Independent Image Registration,2019-10-18
+http://arxiv.org/abs/1910.09328v1,2019-10-22,1928,Integrals over Gaussians under Linear Domain Constraints,2019-10-21
+http://arxiv.org/abs/1910.09212v1,2019-10-22,1892,Analysis and a Solution of Momentarily Missed Detection for Anchor-based Object Detectors,2019-10-21
+http://arxiv.org/abs/1910.09043v1,2019-10-22,1857,Learning from both experts and data,2019-10-20
+http://arxiv.org/abs/1910.09477v1,2019-10-22,1785,Toward automatic comparison of visualization techniques: Application to graph visualization,2019-10-21
+http://arxiv.org/abs/1910.09168v1,2019-10-22,1732,A $ν$- support vector quantile regression model with automatic accuracy control,2019-10-21
+http://arxiv.org/abs/1910.09246v1,2019-10-22,1679,Who wants accurate models? Arguing for a different metrics to take classification models seriously,2019-10-21
+http://arxiv.org/abs/1910.09368v1,2019-10-22,1676,Movienet: A Movie Multilayer Network Model using Visual and Textual Semantic Cues,2019-10-18
+http://arxiv.org/abs/1910.09014v1,2019-10-22,1635,Ordering-Based Causal Structure Learning in the Presence of Latent Variables,2019-10-20
+http://arxiv.org/abs/1910.08549v1,2019-10-22,1601,Towards Learning Cross-Modal Perception-Trace Models,2019-10-18
+http://arxiv.org/abs/1910.09030v1,2019-10-22,1587,Supporting Multi-point Fan Design with Dimension Reduction,2019-10-20
+http://arxiv.org/abs/1910.08540v1,2019-10-22,1572,Semi-supervised Learning using Adversarial Training with Good and Bad Samples,2019-10-18
+http://arxiv.org/abs/1910.08925v1,2019-10-22,1569,RLScheduler: Learn to Schedule HPC Batch Jobs Using Deep Reinforcement Learning,2019-10-20
+http://arxiv.org/abs/1910.09527v1,2019-10-22,1483,Particle filter with rejection control and unbiased estimator of the marginal likelihood,2019-10-21
+http://arxiv.org/abs/1910.09170v1,2019-10-22,1425,Mining GOLD Samples for Conditional GANs,2019-10-21
+http://arxiv.org/abs/1910.09230v1,2019-10-22,1417,ipA-MedGAN: Inpainting of Arbitrarily Regions in Medical Modalities,2019-10-21
+http://arxiv.org/abs/1910.09119v1,2019-10-22,1404,"Generative Hierarchical Models for Parts, Objects, and Scenes",2019-10-21
+http://arxiv.org/abs/1910.08877v1,2019-10-22,1400,Targeted Estimation of Heterogeneous Treatment Effect in Observational Survival Analysis,2019-10-20
+http://arxiv.org/abs/1910.08902v1,2019-10-22,1390,Privacy- and Utility-Preserving Textual Analysis via Calibrated Multivariate Perturbations,2019-10-20
+http://arxiv.org/abs/1910.08623v1,2019-10-22,1383,A Saddle-Point Dynamical System Approach for Robust Deep Learning,2019-10-18
+http://arxiv.org/abs/1910.09337v1,2019-10-22,1330,A Causal Perspective to Unbiased Conversion Rate Estimation on Data Missing Not at Random,2019-10-16
+http://arxiv.org/abs/1910.09131v1,2019-10-22,1229,Adaptive Learned Bloom Filter (Ada-BF): Efficient Utilization of the Classifier,2019-10-21
+http://arxiv.org/abs/1910.09313v1,2019-10-22,1208,Using Supervised Learning to Classify Metadata of Research Data by Discipline of Research,2019-10-16
+http://arxiv.org/abs/1910.08854v1,2019-10-22,1203,The Deepfake Detection Challenge (DFDC) Preview Dataset,2019-10-19
+http://arxiv.org/abs/1910.09134v1,2019-10-22,1201,"Good, Better, Best: Textual Distractors Generation for Multi-Choice VQA via Policy Gradient",2019-10-21
+http://arxiv.org/abs/1910.08901v1,2019-10-22,1192,Endowing Deep 3D Models with Rotation Invariance Based on Principal Component Analysis,2019-10-20
+http://arxiv.org/abs/1910.08665v1,2019-10-22,1132,NASIB: Neural Architecture Search withIn Budget,2019-10-19
+http://arxiv.org/abs/1910.08573v1,2019-10-22,1093,Coupling Oceanic Observation Systems to Study Mesoscale Ocean Dynamics,2019-10-18
+http://arxiv.org/abs/1910.08720v1,2019-10-22,1080,Neural Spectrum Alignment,2019-10-19
+http://arxiv.org/abs/1910.09126v1,2019-10-22,1005,Communication Efficient Decentralized Training with Multiple Local Updates,2019-10-21
+http://arxiv.org/abs/1910.08711v1,2019-10-22,976,Correlation Maximized Structural Similarity Loss for Semantic Segmentation,2019-10-19
+http://arxiv.org/abs/1910.08732v1,2019-10-22,964,Coordinated Joint Multimodal Embeddings for Generalized Audio-Visual Zeroshot Classification and Retrieval of Videos,2019-10-19
+http://arxiv.org/abs/1910.09308v1,2019-10-22,843,MIScnn: A Framework for Medical Image Segmentation with Convolutional Neural Networks and Deep Learning,2019-10-21
+http://arxiv.org/abs/1910.09499v1,2019-10-22,824,Generalized tensor regression with covariates on multiple modes,2019-10-21
+http://arxiv.org/abs/1910.09433v1,2019-10-22,819,KuroNet: Pre-Modern Japanese Kuzushiji Character Recognition with Deep Learning,2019-10-21
+http://arxiv.org/abs/1910.09055v1,2019-10-22,817,Leveraging inductive bias of neural networks for learning without explicit human annotations,2019-10-20
+http://arxiv.org/abs/1910.08917v1,2019-10-22,782,Leveraging Hierarchical Representations for Preserving Privacy and Utility in Text,2019-10-20
+http://arxiv.org/abs/1910.09347v1,2019-10-22,769,Approximate Sampling using an Accelerated Metropolis-Hastings based on Bayesian Optimization and Gaussian Processes,2019-10-21
+http://arxiv.org/abs/1910.08663v1,2019-10-22,756,Machine Learning Systems for Highly-Distributed and Rapidly-Growing Data,2019-10-18
+http://arxiv.org/abs/1910.08963v1,2019-10-22,748,Combining Shape Priors with Conditional Adversarial Networks for Improved Scapula Segmentation in MR images,2019-10-20
+http://arxiv.org/abs/1910.09522v1,2019-10-22,691,Comparative Study between Adversarial Networks and Classical Techniques for Speech Enhancement,2019-10-21
+http://arxiv.org/abs/1910.09405v1,2019-10-22,676,Hyperspectral Image Classification Based on Adaptive Sparse Deep Network,2019-10-21
+http://arxiv.org/abs/1910.08993v1,2019-10-22,663,Identity Document and banknote security forensics: a survey,2019-10-20
+http://arxiv.org/abs/1910.08867v1,2019-10-22,636,KRNET: Image Denoising with Kernel Regulation Network,2019-10-20
+http://arxiv.org/abs/1910.08853v1,2019-10-22,636,Image Restoration Using Deep Regulated Convolutional Networks,2019-10-19
+http://arxiv.org/abs/1910.09143v1,2019-10-22,624,Exploration via Sample-Efficient Subgoal Design,2019-10-21
+http://arxiv.org/abs/1910.09200v1,2019-10-22,609,Deep Reinforcement Learning Control of Quantum Cartpoles,2019-10-21
+http://arxiv.org/abs/1910.08643v1,2019-10-22,600,Intracranial Hemorrhage Segmentation Using Deep Convolutional Model,2019-10-18
+http://arxiv.org/abs/1910.09373v1,2019-10-22,560,A Stochastic Extra-Step Quasi-Newton Method for Nonsmooth Nonconvex Optimization,2019-10-21
+http://arxiv.org/abs/1910.08805v1,2019-10-22,505,On Adaptivity in Information-constrained Online Learning,2019-10-19
+http://arxiv.org/abs/1910.08654v1,2019-10-22,504,PyTorchPipe: a framework for rapid prototyping of pipelines combining language and vision,2019-10-18
+http://arxiv.org/abs/1910.09022v1,2019-10-22,451,Diverse Behavior Is What Game AI Needs: Generating Varied Human-Like Playing Styles Using Evolutionary Multi-Objective Deep Reinforcement Learning,2019-10-20
+http://arxiv.org/abs/1910.09357v1,2019-10-22,359,Task-Based Learning via Task-Oriented Prediction Network,2019-10-17
+http://arxiv.org/abs/1910.09077v1,2019-10-22,277,Looking Ahead: Anticipating Pedestrians Crossing with Future Frames Prediction,2019-10-20
+http://arxiv.org/abs/1910.08842v1,2019-10-22,277,Machine Learning for AC Optimal Power Flow,2019-10-19
+http://arxiv.org/abs/1910.09529v1,2019-10-22,276,Adaptive gradient descent without descent,2019-10-21
+http://arxiv.org/abs/1910.08811v1,2019-10-22,276,Active 6D Multi-Object Pose Estimation in Cluttered Scenarios with Deep Reinforcement Learning,2019-10-19
+http://arxiv.org/abs/1910.09356v1,2019-10-22,272,Supervised Machine Learning based Ensemble Model for Accurate Prediction of Type 2 Diabetes,2019-10-18
+http://arxiv.org/abs/1910.09434v1,2019-10-22,251,Towards a Reinforcement Learning Environment Toolbox for Intelligent Electric Motor Control,2019-10-21
+http://arxiv.org/abs/1910.09153v1,2019-10-22,251,Entropic Dynamic Time Warping Kernels for Co-evolving Financial Time Series Analysis,2019-10-21
+http://arxiv.org/abs/1910.08790v1,2019-10-22,226,LEt-SNE: A Hybrid Approach To Data Embedding and Visualization of Hyperspectral Imagery,2019-10-19
+http://arxiv.org/abs/1910.09129v1,2019-10-22,221,A Comparison of Semantic Similarity Methods for Maximum Human Interpretability,2019-10-21
+http://arxiv.org/abs/1910.08787v1,2019-10-22,204,SpatialFlow: Bridging All Tasks for Panoptic Segmentation,2019-10-19
+http://arxiv.org/abs/1910.08639v1,2019-10-22,198,OffWorld Gym: open-access physical robotics environment for real-world reinforcement learning benchmark and research,2019-10-18
+http://arxiv.org/abs/1910.08903v1,2019-10-22,190,Benchmark Dataset for Timetable Optimization of Bus Routes in the City of New Delhi,2019-10-20
+http://arxiv.org/abs/1910.08695v1,2019-10-22,187,Fast and Light-weight Portrait Segmentation,2019-10-19
+http://arxiv.org/abs/1910.08978v1,2019-10-22,175,Attention Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images,2019-10-20
+http://arxiv.org/abs/1910.08670v1,2019-10-22,175,Context-Driven Data Mining through Bias Removal and Data Incompleteness Mitigation,2019-10-19
+http://arxiv.org/abs/1910.09444v1,2019-10-22,171,Towards better healthcare: What could and should be automated?,2019-10-21
+http://arxiv.org/abs/1910.08681v1,2019-10-22,151,Spatial-aware Online Adversarial Perturbations Against Visual Object Tracking,2019-10-19
+http://arxiv.org/abs/1910.08728v1,2019-10-22,144,MixModule: Mixed CNN Kernel Module for Medical Image Segmentation,2019-10-19
+http://arxiv.org/abs/1910.08635v1,2019-10-22,137,Tree-based Intelligent Intrusion Detection System in Internet of Vehicles,2019-10-18
+http://arxiv.org/abs/1910.09450v1,2019-10-22,121,Tree-gated Deep Mixture-of-Experts For Pose-robust Face Alignment,2019-10-21
+http://arxiv.org/abs/1910.08713v1,2019-10-22,114,Microservices based Framework to Support Interoperable IoT Applications for Enhanced Data Analytics,2019-10-19
+http://arxiv.org/abs/1910.09504v1,2019-10-22,110,CorrGAN: Sampling Realistic Financial Correlation Matrices Using Generative Adversarial Networks,2019-10-21
+http://arxiv.org/abs/1910.09233v1,2019-10-22,102,CNN based Extraction of Panels/Characters from Bengali Comic Book Page Images,2019-10-21
+http://arxiv.org/abs/1910.09507v1,2019-10-22,74,Spectral Characterization of functional MRI data on voxel-resolution cortical graphs,2019-10-21
+http://arxiv.org/abs/1910.08536v1,2019-10-22,65,LanCe: A Comprehensive and Lightweight CNN Defense Methodology against Physical Adversarial Attacks on Embedded Multimedia Applications,2019-10-17
+http://arxiv.org/abs/1910.09227v1,2019-10-22,47,Safe-Bayesian Generalized Linear Regression,2019-10-21
+http://arxiv.org/abs/1910.08705v1,2019-10-22,45,Attention Guided Metal Artifact Correction in MRI using Deep Neural Networks,2019-10-19
+http://arxiv.org/abs/1910.08887v1,2019-10-22,43,Personalizing Graph Neural Networks with Attention Mechanism for Session-based Recommendation,2019-10-20
+http://arxiv.org/abs/1910.09314v1,2019-10-22,42,Pricing Mechanism for Resource Sustainability in Competitive Online Learning Multi-Agent Systems,2019-10-21
+http://arxiv.org/abs/1910.09282v1,2019-10-22,42,Robust Online Learning for Resource Allocation -- Beyond Euclidean Projection and Dynamic Fit,2019-10-21
+http://arxiv.org/abs/1910.09276v1,2019-10-22,42,Semi-Decentralized Coordinated Online Learning for Continuous Games with Coupled Constraints via Augmented Lagrangian,2019-10-21
+http://arxiv.org/abs/1910.09455v1,2019-10-22,41,Depth-wise Decomposition for Accelerating Separable Convolutions in Efficient Convolutional Neural Networks,2019-10-21
+http://arxiv.org/abs/1910.08874v1,2019-10-22,40,Speech Emotion Recognition with Dual-Sequence LSTM Architecture,2019-10-20
+http://arxiv.org/abs/1910.09161v1,2019-10-22,32,Adversarial Anomaly Detection for Marked Spatio-Temporal Streaming Data,2019-10-21
+http://arxiv.org/abs/1910.09394v1,2019-10-22,28,Generalised learning of time-series: Ornstein-Uhlenbeck processes,2019-10-21
+http://arxiv.org/abs/1910.09083v1,2019-10-22,28,Online Community Detection by Spectral CUSUM,2019-10-20
+http://arxiv.org/abs/1910.08906v1,2019-10-22,25,Self-Adaptive Network Pruning,2019-10-20
+http://arxiv.org/abs/1910.09383v1,2019-10-22,21,Graph Construction from Data using Non Negative Kernel regression (NNK Graphs),2019-10-21
+http://arxiv.org/abs/1910.08629v1,2019-10-22,18,Neural Logic Networks,2019-10-17
+http://arxiv.org/abs/1910.08880v1,2019-10-22,17,Sparse (group) learning with Lipschitz loss functions: a unified analysis,2019-10-20
+http://arxiv.org/abs/1910.09318v1,2019-10-22,12,Directed-Weighting Group Lasso for Eltwise Blocked CNN Pruning,2019-10-21
+http://arxiv.org/abs/1910.08828v1,2019-10-22,11,Dictionary Learning with Almost Sure Error Constraints,2019-10-19
+http://arxiv.org/abs/1910.09447v1,2019-10-22,9,Improving Style Transfer with Calibrated Metrics,2019-10-21
+http://arxiv.org/abs/1910.08964v1,2019-10-22,7,Towards Further Understanding of Sparse Filtering via Information Bottleneck,2019-10-20
+http://arxiv.org/abs/1910.09158v1,2019-10-22,6,Implementation of a modified Nesterov's Accelerated quasi-Newton Method on Tensorflow,2019-10-21
+http://arxiv.org/abs/1910.09094v1,2019-10-22,6,Self-supervised classification of dynamic obstacles using the temporal information provided by videos,2019-10-21
+http://arxiv.org/abs/1910.08878v1,2019-10-22,3,Probabilistic Radiomics: Ambiguous Diagnosis with Controllable Shape Analysis,2019-10-20
+http://arxiv.org/abs/1910.08595v1,2019-10-22,2,Identifying the Most Explainable Classifier,2019-10-18
+http://arxiv.org/abs/1910.08693v1,2019-10-22,1,Online Pricing with Offline Data: Phase Transition and Inverse Square Law,2019-10-19
+http://arxiv.org/abs/1910.09488v1,2019-10-22,0,Relative Interior Rule in Block-Coordinate Minimization,2019-10-21
+http://arxiv.org/abs/1910.09396v1,2019-10-22,0,Stochastic Recursive Gradient-Based Methods for Projection-Free Online Learning,2019-10-21
+http://arxiv.org/abs/1910.09293v1,2019-10-22,0,Approximation capabilities of neural networks on unbounded domains,2019-10-21
+http://arxiv.org/abs/1910.09198v1,2019-10-22,0,Automatic Lumbar Spinal CT Image Segmentation with a Dual Densely Connected U-Net,2019-10-21
+http://arxiv.org/abs/1910.09152v1,2019-10-22,0,A New Framework for Multi-Agent Reinforcement Learning -- Centralized Training and Exploration with Decentralized Execution via Policy Distillation,2019-10-21
+http://arxiv.org/abs/1910.09122v1,2019-10-22,0,Perception-Distortion Trade-off with Restricted Boltzmann Machines,2019-10-21
+http://arxiv.org/abs/1910.09108v1,2019-10-22,0,Boosting Mapping Functionality of Neural Networks via Latent Feature Generation based on Reversible Learning,2019-10-21
+http://arxiv.org/abs/1910.09066v1,2019-10-22,0,From Importance Sampling to Doubly Robust Policy Gradient,2019-10-20
+http://arxiv.org/abs/1910.09046v1,2019-10-22,0,Detecting muscle activation using ultrasound speed of sound inversion with deep learning,2019-10-20
+http://arxiv.org/abs/1910.08962v1,2019-10-22,0,Byte-Pair Encoding for Text-to-SQL Generation,2019-10-20
+http://arxiv.org/abs/1910.08930v1,2019-10-22,0,Sketch2Code: Transformation of Sketches to UI in Real-time Using Deep Neural Network,2019-10-20
+http://arxiv.org/abs/1910.08914v1,2019-10-22,0,LinesToFacePhoto: Face Photo Generation from Lines with Conditional Self-Attention Generative Adversarial Network,2019-10-20
+http://arxiv.org/abs/1910.08909v1,2019-10-22,0,Sparse-Dense Subspace Clustering,2019-10-20
+http://arxiv.org/abs/1910.08904v1,2019-10-22,0,$hv$-Block Cross Validation is not a BIBD: a Note on the Paper by Jeff Racine (2000),2019-10-20
+http://arxiv.org/abs/1910.08898v1,2019-10-22,0,Moving Indoor: Unsupervised Video Depth Learning in Challenging Environments,2019-10-20
+http://arxiv.org/abs/1910.08897v1,2019-10-22,0,Unsupervised High-Resolution Depth Learning From Videos With Dual Networks,2019-10-20
+http://arxiv.org/abs/1910.08798v1,2019-10-22,0,A simple approach to design quantum neural networks and its applications to kernel-learning methods,2019-10-19
+http://arxiv.org/abs/1910.08780v1,2019-10-22,0,Reverse Experience Replay,2019-10-19
+http://arxiv.org/abs/1910.08773v1,2019-10-22,0,Automated Composition of Picture-Synched Music Soundtracks for Movies,2019-10-19
+http://arxiv.org/abs/1910.08771v1,2019-10-22,0,Convex Reconstruction of Structured Matrix Signals from Random Linear Measurements (I): Theoretical Results,2019-10-19
+http://arxiv.org/abs/1910.08719v1,2019-10-22,0,Explainable AI: Deep Reinforcement Learning Agents for Residential Demand Side Cost Savings in Smart Grids,2019-10-19
+http://arxiv.org/abs/1910.08707v1,2019-10-22,0,Introduction to Coresets: Accurate Coresets,2019-10-19
+http://arxiv.org/abs/1910.08697v1,2019-10-22,0,Gastroscopic Panoramic View: Application to Automatic Polyps Detection under Gastroscopy,2019-10-19
+http://arxiv.org/abs/1910.08655v1,2019-10-22,0,Ensemble learning based linear power flow,2019-10-18
+http://arxiv.org/abs/1910.08644v1,2019-10-22,0,Clustering by Optimizing the Average Silhouette Width,2019-10-18
+http://arxiv.org/abs/1910.08597v1,2019-10-22,0,Robust Learning Rate Selection for Stochastic Optimization via Splitting Diagnostic,2019-10-18
+http://arxiv.org/abs/1910.08590v1,2019-10-22,0,Anderson Acceleration of Proximal Gradient Methods,2019-10-18
+http://arxiv.org/abs/1910.09106v1,2019-10-22,0,Adversarial Regression. Generative Adversarial Networks for Non-Linear Regression: Theory and Assessment,2019-10-18
+http://arxiv.org/abs/1910.09370v1,2019-10-22,0,Science and Technology Advance through Surprise,2019-10-18
+http://arxiv.org/abs/1910.09402v1,2019-10-22,0,Interpreting Basis Path Set in Neural Networks,2019-10-18
+http://arxiv.org/abs/1910.08537v1,2019-10-22,0,Normal Estimation for 3D Point Clouds via Local Plane Constraint and Multi-scale Selection,2019-10-18
+http://arxiv.org/abs/1910.09323v1,2019-10-22,0,Recurrent Attentive Neural Process for Sequential Data,2019-10-17
 http://arxiv.org/abs/1910.08143v1,2019-10-21,93296,Scoring-Aggregating-Planning: Learning task-agnostic priors from interactions and sparse rewards for zero-shot generalization,2019-10-17
 http://arxiv.org/abs/1910.08112v1,2019-10-21,56313,Anatomically-Informed Data Augmentation for functional MRI with Applications to Deep Learning,2019-10-17
 http://arxiv.org/abs/1910.08343v1,2019-10-21,41996,Automatic Data Augmentation by Learning the Deterministic Policy,2019-10-18
