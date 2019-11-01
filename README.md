@@ -1,4 +1,8 @@
-# citation-sorted-arxiv-slack-bot
+# Keep up with the top ML papers published every day
+
+##### If you're tired like me of going through hundred new papers published every day in arXiv's ML, CV or AI fields, then the below list might be of some use to you. This list is automatically updated every day and is essentially a way of *filtering out the papers published by top researchers*. I do this by summing up the citations of all the authors associated with each new paper, and use the total-authors-citations as a metric to sort all the newly published papers**. 
+
+##### Below are two lists of papers from arXiv's cs.CV, cs.LG and stat.ML, as sorted using this metric. The first being a sorted list of papers released today, and the second being a sorted list of papers released in the past 7 days. This repo also has the code to post these lists to your desired Slack channels. Suggestions or improvements are always welcome!
 
 ## Daily top 10
 1. *Small-GAN: Speeding Up GAN Training Using Core-sets* [url](http://arxiv.org/abs/1910.13540v1)
@@ -737,3 +741,7 @@
   </ol>
 </details>
 
+-------------------------------------------------------------------------------
+** Disclaimers **
+* It is not necessary that all authors have a google scholar page. Also sometimes, two or more people have the same name. In such cases, my citation metric might not be reliable.
+* It is not necessary that novel papers only come from existing top researchers. Being a newbie myself, I am fairly certain that my papers would be ranked towards the bottom of these lists.
