@@ -1,4 +1,12 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1911.02496v1,2019-11-09,24915,E.T.-RNN: Applying Deep Learning to Credit Loan Applications,2019-11-06
+http://arxiv.org/abs/1911.02166v1,2019-11-09,21584,Distributional Reward Decomposition for Reinforcement Learning,2019-11-06
+http://arxiv.org/abs/1911.02140v1,2019-11-09,21584,Fully Parameterized Quantile Function for Distributional Reinforcement Learning,2019-11-05
+http://arxiv.org/abs/1911.02508v1,2019-11-09,1260,How can we fool LIME and SHAP? Adversarial Attacks on Post hoc Explanation Methods,2019-11-06
+http://arxiv.org/abs/1911.02377v1,2019-11-09,504,Searching to Exploit Memorization Effect in Learning from Corrupted Labels,2019-11-06
+http://arxiv.org/abs/1911.02360v1,2019-11-09,267,Reversible Adversarial Examples based on Reversible Image Transformation,2019-11-06
+http://arxiv.org/abs/1911.02248v1,2019-11-09,64,MBCAL: A Simple and Efficient Reinforcement Learning Method for Recommendation Systems,2019-11-06
+http://arxiv.org/abs/1911.02257v1,2019-11-09,2,Hierarchical Contextualized Representation for Named Entity Recognition,2019-11-06
 http://arxiv.org/abs/1911.02278v1,2019-11-08,49577,Optimization with soft Dice can lead to a volumetric bias,2019-11-06
 http://arxiv.org/abs/1911.02549v1,2019-11-08,32953,MLPerf Inference Benchmark,2019-11-06
 http://arxiv.org/abs/1911.02074v1,2019-11-08,25655,Computational Separations between Sampling and Optimization,2019-11-05
