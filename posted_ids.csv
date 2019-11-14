@@ -1,4 +1,10 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1911.05055v1,2019-11-14,33690,Comparing pattern sensitivity of a convolutional neural network with an ideal observer and support vector machine,2019-11-12
+http://arxiv.org/abs/1911.05071v1,2019-11-14,10370,Experience-Embedded Visual Foresight,2019-11-12
+http://arxiv.org/abs/1911.05034v1,2019-11-14,6797,Learning Sparse Sharing Architectures for Multiple Tasks,2019-11-12
+http://arxiv.org/abs/1911.05047v1,2019-11-14,5195,Nonsmooth Optimization over Stiefel Manifold: Riemannian Subgradient Methods,2019-11-12
+http://arxiv.org/abs/1911.05059v1,2019-11-14,4949,Tight Sample Complexity of Learning One-hidden-layer Convolutional Neural Networks,2019-11-12
+http://arxiv.org/abs/1911.05050v1,2019-11-14,3916,A Distributed Online Convex Optimization Algorithm with Improved Dynamic Regret,2019-11-12
 http://arxiv.org/abs/1911.04052v1,2019-11-13,97188,Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity,2019-11-11
 http://arxiv.org/abs/1911.04464v1,2019-11-13,87952,MIDAS: Microcluster-Based Detector of Anomalies in Edge Streams,2019-11-11
 http://arxiv.org/abs/1911.04048v1,2019-11-13,78165,Multidataset Independent Subspace Analysis with Application to Multimodal Fusion,2019-11-11
