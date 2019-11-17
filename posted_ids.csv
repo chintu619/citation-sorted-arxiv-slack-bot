@@ -1,4 +1,26 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1911.06154v1,2019-11-17,28483,A Massive Collection of Cross-Lingual Web-Document Pairs,2019-11-10
+http://arxiv.org/abs/1911.06156v1,2019-11-17,25548,Syntax-Infused Transformer and BERT models for Machine Translation and Natural Language Understanding,2019-11-10
+http://arxiv.org/abs/1911.06191v1,2019-11-17,22827,Microsoft Research Asia's Systems for WMT19,2019-11-07
+http://arxiv.org/abs/1911.05733v1,2019-11-17,12511,The phonetic bases of vocal expressed emotion: natural versus acted,2019-11-13
+http://arxiv.org/abs/1911.06194v1,2019-11-17,7219,Towards Hierarchical Importance Attribution: Explaining Compositional Semantics for Neural Sequence Models,2019-11-08
+http://arxiv.org/abs/1911.06147v1,2019-11-17,4022,t-SS3: a text classifier with dynamic n-grams for early risk detection over text streams,2019-11-11
+http://arxiv.org/abs/1911.05171v1,2019-11-17,2704,Incentive Compatible Active Learning,2019-11-12
+http://arxiv.org/abs/1911.06111v1,2019-11-17,2325,Instance-based Transfer Learning for Multilingual Deep Retrieval,2019-11-08
+http://arxiv.org/abs/1911.06242v1,2019-11-17,1119,Condition monitoring and early diagnostics methodologies for hydropower plants,2019-11-13
+http://arxiv.org/abs/1911.05879v1,2019-11-17,684,Image-Based Feature Representation for Insider Threat Classification,2019-11-13
+http://arxiv.org/abs/1911.06137v1,2019-11-17,658,Unsupervised Domain Adaptation on Reading Comprehension,2019-11-13
+http://arxiv.org/abs/1911.06155v1,2019-11-17,276,RNN-Test: Adversarial Testing Framework for Recurrent Neural Network Systems,2019-11-11
+http://arxiv.org/abs/1911.05880v1,2019-11-17,217,Deep Encoder-decoder Adversarial Reconstruction (DEAR) Network for 3D CT from Few-view Data,2019-11-13
+http://arxiv.org/abs/1911.06118v1,2019-11-17,155,Learning Multi-Sense Word Distributions using Approximate Kullback-Leibler Divergence,2019-11-12
+http://arxiv.org/abs/1911.05878v1,2019-11-17,43,Scientific Image Restoration Anywhere,2019-11-12
+http://arxiv.org/abs/1911.06181v1,2019-11-17,0,Adversarial Transformations for Semi-Supervised Learning,2019-11-13
+http://arxiv.org/abs/1911.06270v1,2019-11-17,0,Federated Learning for Healthcare Informatics,2019-11-13
+http://arxiv.org/abs/1911.06269v1,2019-11-17,0,Few-Features Attack to Fool Machine Learning Models through Mask-Based GAN,2019-11-12
+http://arxiv.org/abs/1911.05755v1,2019-11-17,0,An Introduction to Artificial Intelligence and Solutions to the Problems of Algorithmic Discrimination,2019-11-08
+http://arxiv.org/abs/1911.06197v1,2019-11-17,0,Towards automatic extractive text summarization of A-133 Single Audit reports with machine learning,2019-11-08
+http://arxiv.org/abs/1911.06193v1,2019-11-17,0,Predicting Indian stock market using the psycho-linguistic features of financial news,2019-11-07
+http://arxiv.org/abs/1911.06192v1,2019-11-17,0,Multi-domain Dialogue State Tracking as Dynamic Knowledge Graph Enhanced Question Answering,2019-11-07
 http://arxiv.org/abs/1911.05864v1,2019-11-16,149038,Motion Reasoning for Goal-Based Imitation Learning,2019-11-13
 http://arxiv.org/abs/1911.06258v1,2019-11-16,108298,Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA,2019-11-14
 http://arxiv.org/abs/1911.05797v1,2019-11-16,83853,AI-optimized detector design for the future Electron-Ion Collider: the dual-radiator RICH case,2019-11-13
