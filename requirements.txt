@@ -1,3 +1,7 @@
 arrow
 bibtexparser
 feedparser
+selenium
+requests
+pandas
+bs4

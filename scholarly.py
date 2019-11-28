@@ -17,6 +17,8 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
+from arXiv_bot import _SSLVERIFYCRT
+
 _GOOGLEID = hashlib.md5(str(random.random()).encode('utf-8')).hexdigest()[:16]
 _COOKIES = {'GSP': 'ID={0}:CF=4'.format(_GOOGLEID)}
 _HEADERS = {
@@ -47,7 +49,7 @@ def _handle_captcha(url):
     # TODO: PROBLEMS HERE! NEEDS ATTENTION
     # Get the captcha image
     captcha_url = _HOST + '/sorry/image?id={0}'.format(g_id)
-    captcha = _SESSION.get(captcha_url, headers=_HEADERS)
+    captcha = _SESSION.get(captcha_url, headers=_HEADERS, verify=_SSLVERIFYCRT)
     # Upload to remote host and display to user for human verification
     img_upload = requests.post('http://postimage.org/',
         files={'upload[]': ('scholarly_captcha.jpg', captcha.text)})
@@ -62,7 +64,7 @@ def _handle_captcha(url):
         g_response = raw_input('Enter CAPTCHA: ')
     # Once we get a response, follow through and load the new page.
     url_response = _HOST+'/sorry/CaptchaRedirect?continue={0}&id={1}&captcha={2}&submit=Submit'.format(dest_url, g_id, g_response)
-    resp_captcha = _SESSION.get(url_response, headers=_HEADERS, cookies=_COOKIES)
+    resp_captcha = _SESSION.get(url_response, headers=_HEADERS, cookies=_COOKIES, verify=_SSLVERIFYCRT)
     print('Forwarded to {0}'.format(resp_captcha.url))
     return resp_captcha.url
 
@@ -82,8 +84,7 @@ def _get_page(pagerequest):
     """Return the data for a page on scholar.google.com"""
     # Note that we include a sleep to avoid overloading the scholar server
     time.sleep(5+random.uniform(0, 5))
-    verify_crt = './verify/ZscalerRootCertificate.crt'
-    resp = _SESSION.get(pagerequest, headers=_HEADERS, cookies=_COOKIES, verify=verify_crt)
+    resp = _SESSION.get(pagerequest, headers=_HEADERS, cookies=_COOKIES, verify=_SSLVERIFYCRT)
     if resp.status_code == 200:
         return resp.text
     if resp.status_code == 503:

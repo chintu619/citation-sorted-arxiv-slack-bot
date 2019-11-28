@@ -5,6 +5,8 @@ Created on Thu Jun  6 18:26:45 2019
 @author: Chaitanya Narisetty
 """
 
+_SSLVERIFYCRT = True
+
 import os,requests,pandas,json,feedparser
 import scholarly
 import numpy as np
@@ -39,7 +41,7 @@ def getAuthorCitations(author):
 
     return author_citation_count
 
-def search(posted_ids,Texts,verify):
+def search(posted_ids,Texts):
     posted_urls = list(posted_ids['url'])
     while True:
         counter = 0
@@ -47,7 +49,7 @@ def search(posted_ids,Texts,verify):
         query='(cat:stat.ML+OR+cat:cs.CV+OR+cat:cs.LG)&start=0&max_results=1000' + \
               '&sortBy=lastUpdatedDate&sortOrder=descending'
         arXiv_url = arXiv_url+query
-        data = requests.get(arXiv_url,verify=verify).text
+        data = requests.get(arXiv_url,verify=_SSLVERIFYCRT).text
         entry_elements = feedparser.parse(data)['entries']
 
         # WARNING: more than 100 new papers per day can lead to temporary IP ban
@@ -65,7 +67,7 @@ def search(posted_ids,Texts,verify):
 
                 if not flag_IPban:
                     # sleep for 15 minutes after checking of every 50 papers to avoid IP ban
-                    if (counter > 0) and (counter%50 == 0): time.sleep(15*60)
+                    if (counter > 0) and (counter%25 == 0): time.sleep(15*60)
 
                     citations = 0 # total citation count of the paper
                     # get a list of all the authors in the paper
@@ -106,7 +108,7 @@ def search(posted_ids,Texts,verify):
 
         return posted_ids, Texts
 
-def post(Texts,Web_hook_url,verify):
+def post(Texts,Web_hook_url):
     post_text = ''; counter = 1
     for val in Texts:
         # only use title and url information
@@ -121,16 +123,16 @@ def post(Texts,Web_hook_url,verify):
             'link_names':1,
             'channel': '#misc-news-arxiv',}
     data = json.dumps(post).encode("utf-8")
-    requests.post(Web_hook_url, data = data,verify=verify)
+    requests.post(Web_hook_url, data = data,verify=_SSLVERIFYCRT)
 
 def makeMarkdown(posted_ids):
     if len(posted_ids) == 0: return 0
 
     lastRelease_date = max(posted_ids.date)
-    lastRelease_dt = dt.datetime.strptime(lastRelease_date, '%Y-%m-%d')
+    # lastRelease_dt = dt.datetime.strptime(lastRelease_date, '%Y-%m-%d')
     lastRelease_papers = posted_ids.loc[posted_ids['date'] == lastRelease_date].reset_index(drop=1)
 
-    oneweekpastdate = (lastRelease_dt - dt.timedelta(7)).strftime('%Y-%m-%d')
+    oneweekpastdate = (lastRelease_date - dt.timedelta(7)).strftime('%Y-%m-%d')
     lastweek_papers = posted_ids.loc[(posted_ids['date'] <= lastRelease_date) & \
                                      (posted_ids['date'] > oneweekpastdate)]
     lastweek_papers = lastweek_papers.sort_values(by='weight', ascending=False \
@@ -176,8 +178,8 @@ def makeMarkdown(posted_ids):
 
     with open('README.md', mode='w', encoding="utf-8") as md_file: md_file.write(markdown)
 
+
 if __name__== '__main__':
-    verify=True # or provide a link to appropriate ssl crt
     Web_hook_url = "Web hook url" # provide an appropriate web hook
     posted_ids_file = './posted_ids.csv'
     if os.path.exists(posted_ids_file):
@@ -186,11 +188,13 @@ if __name__== '__main__':
         posted_ids = pandas.DataFrame([], columns=['url', 'date', 'weight', 'title', 'release_date'])
 
     Texts = []
-    posted_ids, Texts = search(posted_ids,Texts,verify)
+    posted_ids, Texts = search(posted_ids,Texts)
     try:
-        post(Texts,Web_hook_url,verify)
+        post(Texts,Web_hook_url)
     except:
         print('Error: Unable to post. Check the web-hook URL!')
+    posted_ids['date'] = pandas.to_datetime(posted_ids['date'])
+    posted_ids['release_date'] = pandas.to_datetime(posted_ids['release_date'])
     posted_ids = posted_ids.sort_values(by=['date','weight'], ascending=False).reset_index(drop=1)
     posted_ids.to_csv(posted_ids_file, index=False)
     makeMarkdown(posted_ids)
