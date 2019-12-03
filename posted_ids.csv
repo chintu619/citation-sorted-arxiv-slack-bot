@@ -1,4 +1,17 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1911.09083,2019-12-03,36962.0,Machine-learning non-stationary noise out of gravitational wave detectors,2019-11-20
+http://arxiv.org/abs/1911.10677,2019-12-03,798.0,Non-autoregressive Transformer by Position Learning,2019-11-25
+http://arxiv.org/abs/1911.00927,2019-12-03,437.0,Spot Evasion Attacks: Adversarial Examples for License Plate Recognition Systems with Convolutional Neural Networks,2019-10-27
+http://arxiv.org/abs/1911.10521,2019-12-03,213.0,Which Channel to Ask My Question? Personalized Customer Service Request Stream Routing using Deep Reinforcement Learning,2019-11-24
+http://arxiv.org/abs/1911.10357,2019-12-03,98.0,Kernelized Multiview Subspace Analysis by Self-weighted Learning,2019-11-23
+http://arxiv.org/abs/1911.13282,2019-12-03,35.0,Quantum Computation with Machine-Learning-Controlled Quantum Stuff,2019-11-29
+http://arxiv.org/abs/1911.11062,2019-12-03,4.0,Automatic Detection of Satire in Bangla Documents: A CNN Approach Based on Hybrid Feature Extraction Model,2019-11-19
+http://arxiv.org/abs/1911.10806,2019-12-03,0.0,Detecting Unknown Behaviors by Pre-defined Behaviours: An Bayesian Non-parametric Approach,2019-11-25
+http://arxiv.org/abs/1911.10561,2019-12-03,0.0,Time-aware Gradient Attack on Dynamic Network Link Prediction,2019-11-24
+http://arxiv.org/abs/1911.10438,2019-12-03,0.0,CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning,2019-11-24
+http://arxiv.org/abs/1911.13257,2019-12-03,0.0,Non-Intrusive Electrical Appliances Monitoring and Classification using K-Nearest Neighbors,2019-11-22
+http://arxiv.org/abs/1911.13263,2019-12-03,0.0,Multi-PCA based Fault Detection Model Combined with Prior knowledge of HVAC,2019-11-21
+http://arxiv.org/abs/1911.13213,2019-12-03,0.0,DeStress: Deep Learning for Unsupervised Identification of Mental Stress in Firefighters from Heart-rate Variability (HRV) Data,2019-11-18
 http://arxiv.org/abs/1911.12747,2019-12-02,187209.0,ASR is all you need: cross-modal distillation for lip reading,2019-11-28
 http://arxiv.org/abs/1911.13254,2019-12-02,105489.0,Music Source Separation in the Waveform Domain,2019-11-27
 http://arxiv.org/abs/1911.12836,2019-12-02,56011.0,Siam R-CNN: Visual Tracking by Re-Detection,2019-11-28
