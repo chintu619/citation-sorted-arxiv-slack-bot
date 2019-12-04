@@ -1,4 +1,341 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1912.00444,2019-12-04,257165.0,Automated curriculum generation for Policy Gradients from Demonstrations,2019-12-01
+http://arxiv.org/abs/1912.00957,2019-12-04,235181.0,Applying Knowledge Transfer for Water Body Segmentation in Peru,2019-12-02
+http://arxiv.org/abs/1912.00998,2019-12-04,198255.0,A Multigrid Method for Efficiently Training Video Models,2019-12-02
+http://arxiv.org/abs/1912.00547,2019-12-04,119007.0,Large-scale text processing pipeline with Apache Spark,2019-12-02
+http://arxiv.org/abs/1912.00286,2019-12-04,101223.0,Training Distributed Deep Recurrent Neural Networks with Mixed Precision on GPU Clusters,2019-11-30
+http://arxiv.org/abs/1912.00742,2019-12-04,101159.0,Pythia: AI-assisted Code Completion System,2019-11-29
+http://arxiv.org/abs/1912.01119,2019-12-04,81771.0,Deep Bayesian Active Learning for Multiple Correct Outputs,2019-12-02
+http://arxiv.org/abs/1912.00953,2019-12-04,76045.0,LOGAN: Latent Optimisation for Generative Adversarial Networks,2019-12-02
+http://arxiv.org/abs/1912.01180,2019-12-04,75618.0,RSA: Randomized Simulation as Augmentation for Robust Human Action Recognition,2019-12-03
+http://arxiv.org/abs/1912.01592,2019-12-04,67425.0,Towards an Integrative Educational Recommender for Lifelong Learners,2019-12-03
+http://arxiv.org/abs/1912.00416,2019-12-04,63066.0,LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation,2019-12-01
+http://arxiv.org/abs/1912.00589,2019-12-04,55367.0,Flow Contrastive Estimation of Energy-Based Models,2019-12-02
+http://arxiv.org/abs/1912.00660,2019-12-04,51277.0,DAL -- A Deep Depth-aware Long-term Tracker,2019-12-02
+http://arxiv.org/abs/1912.01447,2019-12-04,46731.0,Transform-Invariant Convolutional Neural Networks for Image Classification and Search,2019-11-28
+http://arxiv.org/abs/1912.00873,2019-12-04,46124.0,Variational Physics-Informed Neural Networks For Solving Partial Differential Equations,2019-11-27
+http://arxiv.org/abs/1912.00821,2019-12-04,45677.0,Mixture Dense Regression for Object Detection and Human Pose Estimation,2019-12-02
+http://arxiv.org/abs/1912.00382,2019-12-04,41670.0,Alignment Free and Distortion Robust Iris Recognition,2019-12-01
+http://arxiv.org/abs/1912.00377,2019-12-04,41670.0,Dynamic Graph Representation for Partially Occluded Biometrics,2019-12-01
+http://arxiv.org/abs/1912.00262,2019-12-04,40895.0,Image segmentation of liver stage malaria infection with spatial uncertainty sampling,2019-11-30
+http://arxiv.org/abs/1912.01540,2019-12-04,39913.0,QUEST: Quantized embedding space for transferring knowledge,2019-12-03
+http://arxiv.org/abs/1912.00420,2019-12-04,37842.0,Stochastic tissue window normalization of deep learning on computed tomography,2019-12-01
+http://arxiv.org/abs/1912.01188,2019-12-04,35595.0,Adaptive Online Planning for Continual Lifelong Learning,2019-12-03
+http://arxiv.org/abs/1912.01054,2019-12-04,35164.0,The state of the art in kidney and kidney tumor segmentation in contrast-enhanced CT imaging: Results of the KiTS19 Challenge,2019-12-02
+http://arxiv.org/abs/1912.00520,2019-12-04,34606.0,Adaptive Divergence for Rapid Adversarial Optimization,2019-12-01
+http://arxiv.org/abs/1912.00071,2019-12-04,32935.0,Safety Guarantees for Planning Based on Iterative Gaussian Processes,2019-11-29
+http://arxiv.org/abs/1912.00623,2019-12-04,32166.0,Reinforced Feature Points: Optimizing Feature Detection and Description for a High-Level Task,2019-12-02
+http://arxiv.org/abs/1912.01094,2019-12-04,30581.0,Recovering from Biased Data: Can Fairness Constraints Improve Accuracy?,2019-12-02
+http://arxiv.org/abs/1912.00370,2019-12-04,30285.0,Machine learning applications in time series hierarchical forecasting,2019-12-01
+http://arxiv.org/abs/1912.00805,2019-12-04,29779.0,Comparing Offline and Online Testing of Deep Neural Networks: An Autonomous Car Case Study,2019-11-28
+http://arxiv.org/abs/1912.00367,2019-12-04,29762.0,End to End Trainable Active Contours via Differentiable Rendering,2019-12-01
+http://arxiv.org/abs/1912.01001,2019-12-04,27268.0,View-Invariant Probabilistic Embedding for Human Pose,2019-12-02
+http://arxiv.org/abs/1912.00042,2019-12-04,26585.0,Learning Likelihoods with Conditional Normalizing Flows,2019-11-29
+http://arxiv.org/abs/1912.01096,2019-12-04,24346.0,Semi-Supervised Learning of Bearing Anomaly Detection via Deep Variational Autoencoders,2019-12-02
+http://arxiv.org/abs/1912.00712,2019-12-04,24336.0,Financial Market Directional Forecasting With Stacked Denoising Autoencoder,2019-12-02
+http://arxiv.org/abs/1912.00508,2019-12-04,24245.0,A Contextual-Bandit Approach to Online Learning to Rank for Relevance and Diversity,2019-12-01
+http://arxiv.org/abs/1912.01452,2019-12-04,23753.0,Assessing the Robustness of Visual Question Answering,2019-11-30
+http://arxiv.org/abs/1912.00086,2019-12-04,23448.0,Learning Perceptual Inference by Contrasting,2019-11-29
+http://arxiv.org/abs/1912.01326,2019-12-04,22708.0,A Context-Aware Loss Function for Action Spotting in Soccer Videos,2019-12-03
+http://arxiv.org/abs/1912.00289,2019-12-04,22554.0,A Programmatic and Semantic Approach to Explaining and DebuggingNeural Network Based Object Detectors,2019-12-01
+http://arxiv.org/abs/1912.01362,2019-12-04,22336.0,Multi-Channel Volumetric Neural Network for Knee Cartilage Segmentation in Cone-beam CT,2019-12-03
+http://arxiv.org/abs/1912.01603,2019-12-04,21790.0,Dream to Control: Learning Behaviors by Latent Imagination,2019-12-03
+http://arxiv.org/abs/1912.00131,2019-12-04,21532.0,Federated Learning with Autotuned Communication-Efficient Secure Aggregation,2019-11-30
+http://arxiv.org/abs/1912.00730,2019-12-04,21517.0,SemEval-2017 Task 3: Community Question Answering,2019-12-02
+http://arxiv.org/abs/1912.00412,2019-12-04,20536.0,MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification,2019-12-01
+http://arxiv.org/abs/1912.00096,2019-12-04,20513.0,FusionMapping: Learning Depth Prediction with Monocular Images and 2D Laser Scans,2019-11-29
+http://arxiv.org/abs/1912.00330,2019-12-04,18798.0,Adversary A3C for Robust Reinforcement Learning,2019-12-01
+http://arxiv.org/abs/1912.01422,2019-12-04,18751.0,Simpson's Paradox and the implications for medical trials,2019-12-03
+http://arxiv.org/abs/1912.00254,2019-12-04,17706.0,Averaging Essential and Fundamental Matrices in Collinear Camera Settings,2019-11-30
+http://arxiv.org/abs/1912.01224,2019-12-04,17538.0,Robust Invisible Hyperlinks in Physical Photographs Based on 3D Rendering Attacks,2019-12-03
+http://arxiv.org/abs/1912.01526,2019-12-04,17446.0,Degenerative Adversarial NeuroImage Nets for 3D Simulations: Application in Longitudinal MRI,2019-12-03
+http://arxiv.org/abs/1912.00706,2019-12-04,16959.0,scikit-hubness: Hubness Reduction and Approximate Neighbor Search,2019-12-02
+http://arxiv.org/abs/1912.01413,2019-12-04,16654.0,Spatial images from temporal data,2019-12-02
+http://arxiv.org/abs/1912.01106,2019-12-04,16642.0,MnasFPN: Learning Latency-aware Pyramid Architecture for Object Detection on Mobile Devices,2019-12-02
+http://arxiv.org/abs/1912.01051,2019-12-04,16399.0,Estimating Numerical Distributions under Local Differential Privacy,2019-12-02
+http://arxiv.org/abs/1912.00672,2019-12-04,16315.0,On Classifying Sepsis Heterogeneity in the ICU: Insight Using Machine Learning,2019-12-02
+http://arxiv.org/abs/1912.01369,2019-12-04,16210.0,Multi-Criterion Evolutionary Design of Deep Convolutional Neural Networks,2019-12-03
+http://arxiv.org/abs/1912.00398,2019-12-04,16138.0,AntNet: Deep Answer Understanding Network for Natural Reverse QA,2019-12-01
+http://arxiv.org/abs/1912.00314,2019-12-04,16126.0,An Anomaly Contribution Explainer for Cyber-Security Applications,2019-12-01
+http://arxiv.org/abs/1912.01100,2019-12-04,16090.0,Latent Replay for Real-Time Continual Learning,2019-12-02
+http://arxiv.org/abs/1912.00306,2019-12-04,16043.0,Efficient adjustment sets for population average treatment effect estimation in non-parametric causal graphical models,2019-12-01
+http://arxiv.org/abs/1912.00411,2019-12-04,15900.0,Hepatocellular Carcinoma Intra-arterial Treatment Response Prediction for Improved Therapeutic Decision-Making,2019-12-01
+http://arxiv.org/abs/1912.00544,2019-12-04,15741.0,Multi-Scale Self-Attention for Text Classification,2019-12-02
+http://arxiv.org/abs/1912.01601,2019-12-04,15125.0,LiteEval: A Coarse-to-Fine Framework for Resource Efficient Video Recognition,2019-12-03
+http://arxiv.org/abs/1912.00773,2019-12-04,14560.0,Time-Guided High-Order Attention Model of Longitudinal Heterogeneous Healthcare Data,2019-11-28
+http://arxiv.org/abs/1912.00827,2019-12-04,14210.0,A Random Matrix Perspective on Mixtures of Nonlinearities for Deep Learning,2019-12-02
+http://arxiv.org/abs/1912.01038,2019-12-04,14108.0,A gray-box model for a probabilistic estimate of regional ground magnetic perturbations: Enhancing the NOAA operational Geospace model with machine learning,2019-12-02
+http://arxiv.org/abs/1912.00833,2019-12-04,13835.0,Mis-classified Vector Guided Softmax Loss for Face Recognition,2019-11-26
+http://arxiv.org/abs/1912.00830,2019-12-04,13768.0,Information bottleneck through variational glasses,2019-12-02
+http://arxiv.org/abs/1912.01238,2019-12-04,13413.0,Overcoming Catastrophic Forgetting by Generative Regularization,2019-12-03
+http://arxiv.org/abs/1912.00848,2019-12-04,13141.0,Neural Predictor for Neural Architecture Search,2019-12-02
+http://arxiv.org/abs/1912.01320,2019-12-04,12960.0,ATIS + SpiNNaker: a Fully Event-based Visual Tracking Demonstration,2019-12-03
+http://arxiv.org/abs/1912.01144,2019-12-04,12906.0,Bayesian-Deep-Learning Estimation of Earthquake Location from Single-Station Observations,2019-12-03
+http://arxiv.org/abs/1912.01584,2019-12-04,12840.0,EventGAN: Leveraging Large Scale Image Datasets for Event Cameras,2019-12-03
+http://arxiv.org/abs/1912.01202,2019-12-04,12495.0,Real-Time Panoptic Segmentation from Dense Detections,2019-12-03
+http://arxiv.org/abs/1912.01306,2019-12-04,12445.0,Joint Graph-based Depth Refinement and Normal Estimation,2019-12-03
+http://arxiv.org/abs/1912.00271,2019-12-04,12415.0,Biometric Recognition Using Deep Learning: A Survey,2019-11-30
+http://arxiv.org/abs/1912.00536,2019-12-04,12350.0,Gaussian Embedding of Large-scale Attributed Graphs,2019-12-02
+http://arxiv.org/abs/1912.00280,2019-12-04,12159.0,Morphing and Sampling Network for Dense Point Cloud Completion,2019-11-30
+http://arxiv.org/abs/1912.01349,2019-12-04,12082.0,Asymmetric Co-Teaching for Unsupervised Cross Domain Person Re-Identification,2019-12-03
+http://arxiv.org/abs/1912.01588,2019-12-04,11610.0,Leveraging Procedural Generation to Benchmark Reinforcement Learning,2019-12-03
+http://arxiv.org/abs/1912.01108,2019-12-04,11273.0,Diagnostic Curves for Black Box Models,2019-12-02
+http://arxiv.org/abs/1912.00315,2019-12-04,11258.0,Topic-aware chatbot using Recurrent Neural Networks and Nonnegative Matrix Factorization,2019-12-01
+http://arxiv.org/abs/1912.01494,2019-12-04,11076.0,Supervised and Unsupervised End-to-End Deep Learning for Gene Ontology Classification of Neural In Situ Hybridization Images,2019-11-30
+http://arxiv.org/abs/1912.00079,2019-12-04,10985.0,DeepMimic: Mentor-Student Unlabeled Data Based Training,2019-11-24
+http://arxiv.org/abs/1912.01170,2019-12-04,10979.0,Sequential Classification with Empirically Observed Statistics,2019-12-03
+http://arxiv.org/abs/1912.00527,2019-12-04,10942.0,Detecting GAN generated errors,2019-12-02
+http://arxiv.org/abs/1912.00331,2019-12-04,10852.0,Inverse Cognitive Radar -- A Revealed Preferences Approach,2019-12-01
+http://arxiv.org/abs/1912.00543,2019-12-04,10841.0,Pyramid Convolutional RNN for MRI Reconstruction,2019-12-02
+http://arxiv.org/abs/1912.00835,2019-12-04,10331.0,Low Rank Factorization for Compact Multi-Head Self-Attention,2019-11-26
+http://arxiv.org/abs/1912.00283,2019-12-04,10175.0,Interpreting Deep Learning Features for Myoelectric Control: A Comparison with Handcrafted Features,2019-11-30
+http://arxiv.org/abs/1912.00385,2019-12-04,9407.0,The Group Loss for Deep Metric Learning,2019-12-01
+http://arxiv.org/abs/1912.00058,2019-12-04,9374.0,A Reparameterization-Invariant Flatness Measure for Deep Neural Networks,2019-11-29
+http://arxiv.org/abs/1912.00215,2019-12-04,9224.0,Probing the State of the Art: A Critical Look at Visual Representation Evaluation,2019-11-30
+http://arxiv.org/abs/1912.00145,2019-12-04,9119.0,Point Cloud Instance Segmentation using Probabilistic Embeddings,2019-11-30
+http://arxiv.org/abs/1912.00106,2019-12-04,8998.0,"A binary-activation, multi-level weight RNN and training algorithm for processing-in-memory inference with eNVM",2019-11-30
+http://arxiv.org/abs/1912.00070,2019-12-04,8884.0,Prior-based Domain Adaptive Object Detection for Adverse Weather Conditions,2019-11-29
+http://arxiv.org/abs/1912.00869,2019-12-04,8642.0,More Is Less: Learning Efficient Video Representations by Big-Little Network and Depthwise Temporal Aggregation,2019-12-02
+http://arxiv.org/abs/1912.01158,2019-12-04,8520.0,Noise2Blur: Online Noise Extraction and Denoising,2019-12-03
+http://arxiv.org/abs/1912.00418,2019-12-04,8447.0,Diversifying Inference Path Selection: Moving-Mobile-Network for Landmark Recognition,2019-12-01
+http://arxiv.org/abs/1912.00741,2019-12-04,8229.0,SemEval-2017 Task 4: Sentiment Analysis in Twitter,2019-12-02
+http://arxiv.org/abs/1912.00498,2019-12-04,7993.0,Optimization for Reinforcement Learning: From Single Agent to Cooperative Agents,2019-12-01
+http://arxiv.org/abs/1912.01064,2019-12-04,7915.0,A Keyframe-based Continuous Visual SLAM for RGB-D Cameras via Nonparametric Joint Geometric and Appearance Representation,2019-12-02
+http://arxiv.org/abs/1912.00711,2019-12-04,7803.0,Efficient Convolutional Neural Networks for Depth-Based Multi-Person Pose Estimation,2019-12-02
+http://arxiv.org/abs/1912.00076,2019-12-04,7621.0,OptiBox: Breaking the Limits of Proposals for Visual Grounding,2019-11-29
+http://arxiv.org/abs/1912.01274,2019-12-04,7619.0,The Knowledge Within: Methods for Data-Free Model Compression,2019-12-03
+http://arxiv.org/abs/1912.00832,2019-12-04,7499.0,On the Delta Method for Uncertainty Approximation in Deep Learning,2019-12-02
+http://arxiv.org/abs/1912.00144,2019-12-04,7437.0,Learning Rate Dropout,2019-11-30
+http://arxiv.org/abs/1912.00108,2019-12-04,7168.0,The Topology of Mutated Driver Pathways,2019-11-30
+http://arxiv.org/abs/1912.00036,2019-12-04,6998.0,SG-NN: Sparse Generative Neural Networks for Self-Supervised Scene Completion of RGB-D Scans,2019-11-29
+http://arxiv.org/abs/1912.00381,2019-12-04,6952.0,Gate-Shift Networks for Video Action Recognition,2019-12-01
+http://arxiv.org/abs/1912.00195,2019-12-04,6518.0,SGAS: Sequential Greedy Architecture Search,2019-11-30
+http://arxiv.org/abs/1912.00461,2019-12-04,6494.0,AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds,2019-12-01
+http://arxiv.org/abs/1912.00362,2019-12-04,6286.0,Fast Stochastic Ordinal Embedding with Variance Reduction and Adaptive Step Size,2019-12-01
+http://arxiv.org/abs/1912.00354,2019-12-04,5993.0,Preserving Patient Privacy while Training a Predictive Model of In-hospital Mortality,2019-12-01
+http://arxiv.org/abs/1912.01451,2019-12-04,5973.0,Sanity Checks for Saliency Metrics,2019-11-29
+http://arxiv.org/abs/1912.01171,2019-12-04,5931.0,Universal Adversarial Perturbations for CNN Classifiers in EEG-Based BCIs,2019-12-03
+http://arxiv.org/abs/1912.01166,2019-12-04,5925.0,Heterogeneous Label Space Transfer Learning for Brain-Computer Interfaces: A Label Alignment Approach,2019-12-03
+http://arxiv.org/abs/1912.00320,2019-12-04,5925.0,Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA),2019-12-01
+http://arxiv.org/abs/1912.00594,2019-12-04,5814.0,Combining MixMatch and Active Learning for Better Accuracy with Fewer Labels,2019-12-02
+http://arxiv.org/abs/1912.01211,2019-12-04,5799.0,Rank Aggregation via Heterogeneous Thurstone Preference Models,2019-12-03
+http://arxiv.org/abs/1912.00439,2019-12-04,5744.0,DeepC-MVS: Deep Confidence Prediction for Multi-View Stereo Reconstruction,2019-12-01
+http://arxiv.org/abs/1912.00515,2019-12-04,5696.0,Texture Hallucination for Large-Scale Painting Super-Resolution,2019-12-01
+http://arxiv.org/abs/1912.01308,2019-12-04,5692.0,Bayesian Model Selection for Change Point Detection and Clustering,2019-12-03
+http://arxiv.org/abs/1912.00524,2019-12-04,5656.0,"Factor Analysis on Citation, Using a Combined Latent and Logistic Regression Model",2019-12-02
+http://arxiv.org/abs/1912.01230,2019-12-04,5628.0,Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification,2019-12-03
+http://arxiv.org/abs/1912.00871,2019-12-04,5598.0,Solving Arithmetic Word Problems Automatically Using Transformer and Unambiguous Representations,2019-12-02
+http://arxiv.org/abs/1912.00574,2019-12-04,5526.0,Fastened CROWN: Tightened Neural Network Robustness Certificates,2019-12-02
+http://arxiv.org/abs/1912.00656,2019-12-04,5443.0,Rodent: Relevance determination in ODE,2019-12-02
+http://arxiv.org/abs/1912.00600,2019-12-04,5401.0,A Fast Matrix-Completion-Based Approach for Recommendation Systems,2019-12-02
+http://arxiv.org/abs/1912.00384,2019-12-04,5383.0,Training Object Detectors from Few Weakly-Labeled and Many Unlabeled Images,2019-12-01
+http://arxiv.org/abs/1912.00049,2019-12-04,5273.0,Square Attack: a query-efficient black-box adversarial attack via random search,2019-11-29
+http://arxiv.org/abs/1912.00782,2019-12-04,5179.0,The relationship between trust in AI and trustworthy machine learning technologies,2019-11-27
+http://arxiv.org/abs/1912.00537,2019-12-04,5158.0,Risk Bounds for Low Cost Bipartite Ranking,2019-12-02
+http://arxiv.org/abs/1912.01059,2019-12-04,5138.0,GGNN: Graph-based GPU Nearest Neighbor Search,2019-12-02
+http://arxiv.org/abs/1912.01198,2019-12-04,5096.0,Towards Understanding the Spectral Bias of Deep Learning,2019-12-03
+http://arxiv.org/abs/1912.00403,2019-12-04,4899.0,Affect-based Intrinsic Rewards for Learning General Representations,2019-12-01
+http://arxiv.org/abs/1912.01277,2019-12-04,4883.0,Make Thunderbolts Less Frightening -- Predicting Extreme Weather Using Deep Learning,2019-12-03
+http://arxiv.org/abs/1912.00349,2019-12-04,4872.0,Not All Attention Is Needed: Gated Attention Network for Sequence Data,2019-12-01
+http://arxiv.org/abs/1912.00336,2019-12-04,4569.0,Integrate Image Representation to Text Model on Sentence Level: a Semi-supervised Framework,2019-12-01
+http://arxiv.org/abs/1912.01522,2019-12-04,4230.0,Convolutional STN for Weakly Supervised Object Localization and Beyond,2019-12-03
+http://arxiv.org/abs/1912.00003,2019-12-04,4200.0,A Case for the Score: Identifying Image Anomalies using Variational Autoencoder Gradients,2019-11-28
+http://arxiv.org/abs/1912.00888,2019-12-04,4123.0,Deep Neural Network Fingerprinting by Conferrable Adversarial Examples,2019-12-02
+http://arxiv.org/abs/1912.01373,2019-12-04,3896.0,Automatic Video Object Segmentation via Motion-Appearance-Stream Fusion and Instance-aware Segmentation,2019-12-03
+http://arxiv.org/abs/1912.01196,2019-12-04,3694.0,Learning to Super Resolve Intensity Images from Events,2019-12-03
+http://arxiv.org/abs/1912.00951,2019-12-04,3534.0,Augmented Reality for Human-Swarm Interaction in a Swarm-Robotic Chemistry Simulation,2019-12-02
+http://arxiv.org/abs/1912.00260,2019-12-04,3502.0,Transferable Force-Torque Dynamics Model for Peg-in-hole Task,2019-11-30
+http://arxiv.org/abs/1912.01089,2019-12-04,3434.0,Asymptotic Normality and Variance Estimation For Supervised Ensembles,2019-12-02
+http://arxiv.org/abs/1912.01417,2019-12-04,3405.0,Decentralised Sparse Multi-Task Regression,2019-12-03
+http://arxiv.org/abs/1912.00597,2019-12-04,3381.0,SPSTracker: Sub-Peak Suppression of Response Map for Robust Object Tracking,2019-12-02
+http://arxiv.org/abs/1912.00308,2019-12-04,3364.0,Exploiting Motion Information from Unlabeled Videos for Static Image Action Recognition,2019-12-01
+http://arxiv.org/abs/1912.01599,2019-12-04,3299.0,Stationary Points of Shallow Neural Networks with Quadratic Activation Function,2019-12-03
+http://arxiv.org/abs/1912.00552,2019-12-04,3239.0,Sparse Graph Attention Networks,2019-12-02
+http://arxiv.org/abs/1912.01412,2019-12-04,3238.0,Deep Learning for Symbolic Mathematics,2019-12-02
+http://arxiv.org/abs/1912.01419,2019-12-04,3187.0,Optimal Laplacian regularization for sparse spectral community detection,2019-12-03
+http://arxiv.org/abs/1912.00646,2019-12-04,3186.0,Discovery and Separation of Features for Invariant Representation Learning,2019-12-02
+http://arxiv.org/abs/1912.01103,2019-12-04,3121.0,On Distance and Kernel Measures of Conditional Independence,2019-12-02
+http://arxiv.org/abs/1912.00993,2019-12-04,3002.0,Adversarial normalization for multi domain image segmentation,2019-12-02
+http://arxiv.org/abs/1912.01456,2019-12-04,2982.0,Facial Expression Representation Learning by Synthesizing Expression Images,2019-11-30
+http://arxiv.org/abs/1912.01408,2019-12-04,2665.0,Detecting Finger-Vein Presentation Attacks Using 3D Shape & Diffuse Reflectance Decomposition,2019-12-03
+http://arxiv.org/abs/1912.01372,2019-12-04,2665.0,Robust Morph-Detection at Automated Border Control Gate using Deep Decomposed 3D Shape and Diffuse Reflectance,2019-12-03
+http://arxiv.org/abs/1912.01201,2019-12-04,2626.0,Multi-view Subspace Clustering via Partition Fusion,2019-12-03
+http://arxiv.org/abs/1912.00682,2019-12-04,2550.0,GeoTrackNet-A Maritime Anomaly Detector using Probabilistic Neural Network Representation of AIS Tracks and A Contrario Detection,2019-12-02
+http://arxiv.org/abs/1912.01261,2019-12-04,2547.0,Continuous Online Learning and New Insights to Online Imitation Learning,2019-12-03
+http://arxiv.org/abs/1912.01116,2019-12-04,2506.0,Long Distance Relationships without Time Travel: Boosting the Performance of a Sparse Predictive Autoencoder in Sequence Modeling,2019-12-02
+http://arxiv.org/abs/1912.00528,2019-12-04,2384.0,The intriguing role of module criticality in the generalization of deep networks,2019-12-02
+http://arxiv.org/abs/1912.00535,2019-12-04,2366.0,Deep Learning for Visual Tracking: A Comprehensive Survey,2019-12-02
+http://arxiv.org/abs/1912.01197,2019-12-04,2344.0,Structure Learning with Similarity Preserving,2019-12-03
+http://arxiv.org/abs/1912.00181,2019-12-04,2208.0,Error-Correcting Neural Network,2019-11-30
+http://arxiv.org/abs/1912.00015,2019-12-04,2154.0,Efficient Approximate Inference with Walsh-Hadamard Variational Inference,2019-11-29
+http://arxiv.org/abs/1912.00874,2019-12-04,2141.0,Implicit Priors for Knowledge Sharing in Bayesian Neural Networks,2019-12-02
+http://arxiv.org/abs/1912.00981,2019-12-04,2137.0,Proving Data-Poisoning Robustness in Decision Trees,2019-12-02
+http://arxiv.org/abs/1912.00497,2019-12-04,2063.0,Just Go with the Flow: Self-Supervised Scene Flow Estimation,2019-12-01
+http://arxiv.org/abs/1912.00134,2019-12-04,1928.0,STConvS2S: Spatiotemporal Convolutional Sequence to Sequence Network for weather forecasting,2019-11-30
+http://arxiv.org/abs/1912.00043,2019-12-04,1914.0,Barcodes as summary of objective function's topology,2019-11-29
+http://arxiv.org/abs/1912.00690,2019-12-04,1901.0,EduBERT: Pretrained Deep Language Models for Learning Analytics,2019-12-02
+http://arxiv.org/abs/1912.00858,2019-12-04,1864.0,Efficient Relaxed Gradient Support Pursuit for Sparsity Constrained Non-convex Optimization,2019-12-02
+http://arxiv.org/abs/1912.00789,2019-12-04,1861.0,Is Discriminator a Good Feature Extractor?,2019-12-02
+http://arxiv.org/abs/1912.01438,2019-12-04,1749.0,FlowNet3D++: Geometric Losses For Deep Scene Flow Estimation,2019-12-03
+http://arxiv.org/abs/1912.00673,2019-12-04,1639.0,GroSS: Group-Size Series Decomposition for Whole Search-Space Training,2019-12-02
+http://arxiv.org/abs/1912.01440,2019-12-04,1635.0,A Data-driven Storage Control Framework for Dynamic Pricing,2019-12-01
+http://arxiv.org/abs/1912.00846,2019-12-04,1623.0,Attentive Modality Hopping Mechanism for Speech Emotion Recognition,2019-11-29
+http://arxiv.org/abs/1912.00824,2019-12-04,1596.0,Capacity of the covariance perceptron,2019-12-02
+http://arxiv.org/abs/1912.00138,2019-12-04,1565.0,Sub-pixel matching method for low-resolution thermal stereo images,2019-11-30
+http://arxiv.org/abs/1912.01580,2019-12-04,1527.0,A Comparative Study of Pretrained Language Models on Thai Social Text Categorization,2019-12-03
+http://arxiv.org/abs/1912.00653,2019-12-04,1504.0,"Noisy, Greedy and Not So Greedy k-means++",2019-12-02
+http://arxiv.org/abs/1912.00979,2019-12-04,1498.0,KernelNet: A Data-Dependent Kernel Parameterization for Deep Generative Modeling,2019-12-02
+http://arxiv.org/abs/1912.01300,2019-12-04,1478.0,Viewpoint-Aware Loss with Angular Regularization for Person Re-Identification,2019-12-03
+http://arxiv.org/abs/1912.01303,2019-12-04,1476.0,Predicting Soil pH by Using Nearest Fields,2019-12-03
+http://arxiv.org/abs/1912.00157,2019-12-04,1434.0,Correction Filter for Single Image Super-Resolution: Robustifying Off-the-Shelf Deep Super-Resolvers,2019-11-30
+http://arxiv.org/abs/1912.01148,2019-12-04,1406.0,A Deep Convolutional Network for Seismic Shot-Gather Image Quality Classification,2019-12-03
+http://arxiv.org/abs/1912.01530,2019-12-04,1397.0,On the Validity of Bayesian Neural Networks for Uncertainty Estimation,2019-12-03
+http://arxiv.org/abs/1912.00225,2019-12-04,1359.0,Mix and Match: Markov Chains & Mixing Times for Matching in Rideshare,2019-11-30
+http://arxiv.org/abs/1912.01249,2019-12-04,1349.0,Cyclic Functional Mapping: Self-supervised correspondence between non-isometric deformable shapes,2019-12-03
+http://arxiv.org/abs/1912.00606,2019-12-04,1310.0,DEGAS: Differentiable Efficient Generator Search,2019-12-02
+http://arxiv.org/abs/1912.01101,2019-12-04,1254.0,Offset Masking Improves Deep Learning based Accelerated MRI Reconstructions,2019-12-02
+http://arxiv.org/abs/1912.01149,2019-12-04,1244.0,Training Robust Tree Ensembles for Security,2019-12-03
+http://arxiv.org/abs/1912.00838,2019-12-04,1227.0,DeepFPC: Deep Unfolding of a Fixed-Point Continuation Algorithm for Sparse Signal Recovery from Quantized Measurements,2019-12-02
+http://arxiv.org/abs/1912.01067,2019-12-04,1170.0,A Bayesian Inference Framework for Procedural Material Parameter Estimation,2019-12-02
+http://arxiv.org/abs/1912.00455,2019-12-04,1071.0,Real-time Travel Time Estimation Using Matrix Factorization,2019-12-01
+http://arxiv.org/abs/1912.01070,2019-12-04,1067.0,Simultaneously Linking Entities and Extracting Relations from Biomedical Text Without Mention-level Supervision,2019-12-02
+http://arxiv.org/abs/1912.00018,2019-12-04,1033.0,On the Heavy-Tailed Theory of Stochastic Gradient Descent for Deep Neural Networks,2019-11-29
+http://arxiv.org/abs/1912.01115,2019-12-04,1022.0,Automated speech-based screening of depression using deep convolutional neural networks,2019-12-02
+http://arxiv.org/abs/1912.00200,2019-12-04,1010.0,Pruning at a Glance: Global Neural Pruning for Model Compression,2019-11-30
+http://arxiv.org/abs/1912.00982,2019-12-04,1010.0,TX-Ray: Quantifying and Explaining Model-Knowledge Transfer in (Un-)Supervised NLP,2019-12-02
+http://arxiv.org/abs/1912.00894,2019-12-04,981.0,On the geometry of Stein variational gradient descent,2019-12-02
+http://arxiv.org/abs/1912.00513,2019-12-04,964.0,A Quasi-Newton Method Based Vertical Federated Learning Framework for Logistic Regression,2019-12-01
+http://arxiv.org/abs/1912.00438,2019-12-04,920.0,RST-MODNet: Real-time Spatio-temporal Moving Object Detection for Autonomous Driving,2019-12-01
+http://arxiv.org/abs/1912.00756,2019-12-04,787.0,A Robust Iris Authentication System on GPU-Based Edge Devices using Multi-Modalities Learning Model,2019-12-02
+http://arxiv.org/abs/1912.00386,2019-12-04,776.0,Active Search for Nearest Neighbors,2019-12-01
+http://arxiv.org/abs/1912.01553,2019-12-04,769.0,Learning Spatially Structured Image Transformations Using Planar Neural Networks,2019-12-03
+http://arxiv.org/abs/1912.00155,2019-12-04,728.0,Disentanglement Challenge: From Regularization to Reconstruction,2019-11-30
+http://arxiv.org/abs/1912.00772,2019-12-04,713.0,Data Augmentation for Deep Transfer Learning,2019-11-28
+http://arxiv.org/abs/1912.00201,2019-12-04,674.0,EM-NET: Centerline-Aware Mitochondria Segmentation in EM Images via Hierarchical View-Ensemble Convolutional Network,2019-11-30
+http://arxiv.org/abs/1912.00350,2019-12-04,671.0,Online Knowledge Distillation with Diverse Peers,2019-12-01
+http://arxiv.org/abs/1912.00796,2019-12-04,667.0,Differential Bayesian Neural Nets,2019-12-02
+http://arxiv.org/abs/1912.00775,2019-12-04,639.0,Deep Density: circumventing the Kohn-Sham equations via symmetry preserving neural networks,2019-11-27
+http://arxiv.org/abs/1912.01111,2019-12-04,596.0,Use of Artificial Intelligence to Analyse Risk in Legal Documents for a Better Decision Support,2019-11-22
+http://arxiv.org/abs/1912.00120,2019-12-04,582.0,One-Shot Pruning of Recurrent Neural Networks by Jacobian Spectrum Evaluation,2019-11-30
+http://arxiv.org/abs/1912.00864,2019-12-04,565.0,Conclusion-Supplement Answer Generation for Non-Factoid Questions,2019-11-25
+http://arxiv.org/abs/1912.01160,2019-12-04,539.0,Neighborhood Cognition Consistent Multi-Agent Reinforcement Learning,2019-12-03
+http://arxiv.org/abs/1912.01521,2019-12-04,538.0,Multiscale Self Attentive Convolutions for Vision and Language Modeling,2019-12-03
+http://arxiv.org/abs/1912.00958,2019-12-04,488.0,Language Model Bootstrapping Using Neural Machine Translation For Conversational Speech Recognition,2019-12-02
+http://arxiv.org/abs/1912.00943,2019-12-04,479.0,Detecting mechanical loosening of total hip replacement implant from plain radiograph using deep convolutional neural network,2019-12-02
+http://arxiv.org/abs/1912.01219,2019-12-04,473.0,WaveFlow: A Compact Flow-based Model for Raw Audio,2019-12-03
+http://arxiv.org/abs/1912.00818,2019-12-04,425.0,Federated Learning with Personalization Layers,2019-12-02
+http://arxiv.org/abs/1912.01513,2019-12-04,397.0,BADGER: Learning to (Learn [Learning Algorithms] through Multi-Agent Communication),2019-12-03
+http://arxiv.org/abs/1912.00612,2019-12-04,393.0,Inversion of 1D frequency- and time-domain electromagnetic data with convolutional neural networks,2019-12-02
+http://arxiv.org/abs/1912.00879,2019-12-04,358.0,Improving Question Generation with Sentence-level Semantic Matching and Answer Position Inferring,2019-12-02
+http://arxiv.org/abs/1912.01189,2019-12-04,348.0,Variable Selection with Rigorous Uncertainty Quantification using Deep Bayesian Neural Networks: Posterior Concentration and Bernstein-von Mises Phenomenon,2019-12-03
+http://arxiv.org/abs/1912.01448,2019-12-04,348.0,Hierarchical model-based policy optimization: from actions to action sequences and back,2019-11-28
+http://arxiv.org/abs/1912.00501,2019-12-04,346.0,Interpreting Context of Images using Scene Graphs,2019-12-01
+http://arxiv.org/abs/1912.01268,2019-12-04,341.0,Optimizing the energy consumption of spiking neural networks for neuromorphic applications,2019-12-03
+http://arxiv.org/abs/1912.00602,2019-12-04,332.0,ExperienceThinking: Hyperparameter Optimization with Budget Constraints,2019-12-02
+http://arxiv.org/abs/1912.01137,2019-12-04,310.0,Mixing autoencoder with classifier: conceptual data visualization,2019-12-03
+http://arxiv.org/abs/1912.01321,2019-12-04,308.0,Less Is Better: Unweighted Data Subsampling via Influence Function,2019-12-03
+http://arxiv.org/abs/1912.00202,2019-12-04,299.0,Relation Graph Network for 3D Object Detection in Point Clouds,2019-11-30
+http://arxiv.org/abs/1912.01206,2019-12-04,290.0,Deep Probabilistic Models to Detect Data Poisoning Attacks,2019-12-03
+http://arxiv.org/abs/1912.00167,2019-12-04,282.0,IMPACT: Importance Weighted Asynchronous Architectures with Clipped Target Networks,2019-11-30
+http://arxiv.org/abs/1912.00177,2019-12-04,264.0,Urban Driving with Conditional Imitation Learning,2019-11-30
+http://arxiv.org/abs/1912.00700,2019-12-04,256.0,ReD-CaNe: A Systematic Methodology for Resilience Analysis and Design of Capsule Networks under Approximations,2019-12-02
+http://arxiv.org/abs/1912.00664,2019-12-04,203.0,Training the Convolutional Neural Network with Statistical Dependence of the Response on the Input Data Distortion,2019-12-02
+http://arxiv.org/abs/1912.00649,2019-12-04,181.0,An Attention-Based Speaker Naming Method for Online Adaptation in Non-Fixed Scenarios,2019-12-02
+http://arxiv.org/abs/1912.01359,2019-12-04,173.0,A deep learning based tool for automatic brain extraction from functional magnetic resonance images in rodents,2019-12-03
+http://arxiv.org/abs/1912.00605,2019-12-04,167.0,DeepLofargram: A Deep Learning based Fluctuating Dim Frequency Line Detection and Recovery,2019-12-02
+http://arxiv.org/abs/1912.01172,2019-12-04,164.0,Value-laden Disciplinary Shifts in Machine Learning,2019-12-03
+http://arxiv.org/abs/1912.00512,2019-12-04,158.0,Knowledge Infused Learning (K-IL): Towards Deep Incorporation of Knowledge in Deep Learning,2019-12-01
+http://arxiv.org/abs/1912.00458,2019-12-04,157.0,On the optimality of kernels for high-dimensional clustering,2019-12-01
+http://arxiv.org/abs/1912.01450,2019-12-04,138.0,Fast and Scalable Estimator for Sparse and Unit-Rank Higher-Order Regression Models,2019-11-29
+http://arxiv.org/abs/1912.00622,2019-12-04,131.0,Patchy Image Structure Classification Using Multi-Orientation Region Transform,2019-12-02
+http://arxiv.org/abs/1912.00632,2019-12-04,126.0,IPG-Net: Image Pyramid Guidance Network for Object Detection,2019-12-02
+http://arxiv.org/abs/1912.00872,2019-12-04,125.0,EMAP: Explanation by Minimal Adversarial Perturbation,2019-12-02
+http://arxiv.org/abs/1912.01493,2019-12-04,125.0,End-to-End Deep Neural Networks and Transfer Learning for Automatic Analysis of Nation-State Malware,2019-11-30
+http://arxiv.org/abs/1912.00013,2019-12-04,124.0,Diagnostic checking in FARIMA models with uncorrelated but non-independent error terms,2019-11-29
+http://arxiv.org/abs/1912.01122,2019-12-04,98.0,Discovering Opioid Use Patterns from Social Media for Relapse Prevention,2019-12-02
+http://arxiv.org/abs/1912.00761,2019-12-04,88.0,On the Legal Compatibility of Fairness Definitions,2019-11-25
+http://arxiv.org/abs/1912.00636,2019-12-04,78.0,Optimal Best Markovian Arm Identification with Fixed Confidence,2019-12-02
+http://arxiv.org/abs/1912.00666,2019-12-04,77.0,Interpolating between boolean and extremely high noisy patterns through Minimal Dense Associative Memories,2019-12-02
+http://arxiv.org/abs/1912.01176,2019-12-04,74.0,SAIS: Single-stage Anchor-free Instance Segmentation,2019-12-03
+http://arxiv.org/abs/1912.01455,2019-12-04,69.0,Applications of the Deep Galerkin Method to Solving Partial Integro-Differential and Hamilton-Jacobi-Bellman Equations,2019-11-30
+http://arxiv.org/abs/1912.00311,2019-12-04,67.0,Learning to Relate from Captions and Bounding Boxes,2019-12-01
+http://arxiv.org/abs/1912.01597,2019-12-04,61.0,Stochastic Newton and Cubic Newton Methods with Simple Local Linear-Quadratic Rates,2019-12-03
+http://arxiv.org/abs/1912.00723,2019-12-04,55.0,Relating lp regularization and reweighted l1 regularization,2019-12-02
+http://arxiv.org/abs/1912.01105,2019-12-04,54.0,Clustering via Ant Colonies: Parameter Analysis and Improvement of the Algorithm,2019-12-02
+http://arxiv.org/abs/1912.01401,2019-12-04,52.0,The Analysis of Projective Transformation Algorithms for Image Recognition on Mobile Devices,2019-12-03
+http://arxiv.org/abs/1912.00778,2019-12-04,47.0,Learning a faceted customer segmentation for discovering new business opportunities at Intel,2019-11-27
+http://arxiv.org/abs/1912.00019,2019-12-04,39.0,Long Short-Term Network Based Unobtrusive Perceived Workload Monitoring with Consumer Grade Smartwatches in the Wild,2019-11-30
+http://arxiv.org/abs/1912.00402,2019-12-04,37.0,Bayesian Optimization Approach for Analog Circuit Synthesis Using Neural Network,2019-12-01
+http://arxiv.org/abs/1912.01163,2019-12-04,36.0,Drug-Target Indication Prediction by Integrating End-to-End Learning and Fingerprints,2019-12-03
+http://arxiv.org/abs/1912.00662,2019-12-04,35.0,An Attribute Oriented Induction based Methodology for Data Driven Predictive Maintenance,2019-12-02
+http://arxiv.org/abs/1912.00578,2019-12-04,34.0,Exposing and Correcting the Gender Bias in Image Captioning Datasets and Models,2019-12-02
+http://arxiv.org/abs/1912.00643,2019-12-04,29.0,Identifying the number of clusters for K-Means: A hypersphere density based approach,2019-12-02
+http://arxiv.org/abs/1912.01394,2019-12-04,27.0,RGPNet: A Real-Time General Purpose Semantic Segmentation,2019-12-03
+http://arxiv.org/abs/1912.01454,2019-12-04,24.0,Representation Learning on Unit Ball with 3D Roto-Translational Equivariance,2019-11-30
+http://arxiv.org/abs/1912.00183,2019-12-04,22.0,[Re] Learning to Learn By Self-Critique,2019-11-30
+http://arxiv.org/abs/1912.00790,2019-12-04,16.0,Tabulated MLP for Fast Point Feature Embedding,2019-11-23
+http://arxiv.org/abs/1912.00576,2019-12-04,15.0,Skeleton based Activity Recognition by Fusing Part-wise Spatio-temporal and Attention Driven Residues,2019-12-02
+http://arxiv.org/abs/1912.00296,2019-12-04,13.0,"Image Based Identification of Ghanaian Timbers Using the XyloTron: Opportunities, Risks and Challenges",2019-12-01
+http://arxiv.org/abs/1912.00947,2019-12-04,8.0,Restoring Chaos Using Deep Reinforcement Learning,2019-11-27
+http://arxiv.org/abs/1912.00186,2019-12-04,7.0,Quantized deep learning models on low-power edge devices for robotic systems,2019-11-30
+http://arxiv.org/abs/1912.00735,2019-12-04,6.0,Using Laplacian Spectrum as Graph Feature Representation,2019-12-02
+http://arxiv.org/abs/1912.00178,2019-12-04,5.0,Modeling Fluency and Faithfulness for Diverse Neural Machine Translation,2019-11-30
+http://arxiv.org/abs/1912.01266,2019-12-04,4.0,Explainable artificial intelligence model to predict acute critical illness from electronic health records,2019-12-03
+http://arxiv.org/abs/1912.00466,2019-12-04,4.0,A Method for Computing Class-wise Universal Adversarial Perturbations,2019-12-01
+http://arxiv.org/abs/1912.00127,2019-12-04,4.0,A Hybrid Approach Towards Two Stage Bengali Question Classification Utilizing Smart Data Balancing Technique,2019-11-30
+http://arxiv.org/abs/1912.01439,2019-12-04,2.0,"Generalization Error Bounds Via Rényi-, $f$-Divergences and Maximal Leakage",2019-12-01
+http://arxiv.org/abs/1912.00895,2019-12-04,1.0,Learning to smell for wellness,2019-12-02
+http://arxiv.org/abs/1912.01548,2019-12-04,0.0,Experimental Evidence for Asymptotic Non-Optimality of Comb Adversary Strategy,2019-12-03
+http://arxiv.org/abs/1912.01467,2019-12-04,0.0,Linear Convergence of Frank-Wolfe for Rank-One Matrix Recovery Without Strong Convexity,2019-12-03
+http://arxiv.org/abs/1912.01449,2019-12-04,0.0,A Fast deflation Method for Sparse Principal Component Analysis via Subspace Projections,2019-12-03
+http://arxiv.org/abs/1912.01443,2019-12-04,0.0,The Comparison of Methods for Individual Treatment Effect Detection,2019-12-03
+http://arxiv.org/abs/1912.01329,2019-12-04,0.0,Neural Network Branching for Neural Network Verification,2019-12-03
+http://arxiv.org/abs/1912.01293,2019-12-04,0.0,Scene recognition based on DNN and game theory with its applications in human-robot interaction,2019-12-03
+http://arxiv.org/abs/1912.01242,2019-12-04,0.0,"""How do urban incidents affect traffic speed?"" A Deep Graph Convolutional Network for Incident-driven Traffic Speed Prediction",2019-12-03
+http://arxiv.org/abs/1912.01241,2019-12-04,0.0,A Hidden Variables Approach to Multilabel Logistic Regression,2019-12-03
+http://arxiv.org/abs/1912.01237,2019-12-04,0.0,EDAS: Efficient and Differentiable Architecture Search,2019-12-03
+http://arxiv.org/abs/1912.01234,2019-12-04,0.0,Numerical Gaussian process Kalman filtering,2019-12-03
+http://arxiv.org/abs/1912.01203,2019-12-04,0.0,Music Style Classification with Compared Methods in XGB and BPNN,2019-12-03
+http://arxiv.org/abs/1912.01192,2019-12-04,0.0,Learning Adversarial MDPs with Bandit Feedback and Unknown Transition,2019-12-03
+http://arxiv.org/abs/1912.01181,2019-12-04,0.0,Multi-resolution Graph Neural Network for Identifying Disease-specific Variations in Brain Connectivity,2019-12-03
+http://arxiv.org/abs/1912.01139,2019-12-04,0.0,Event Ticket Price Prediction with Deep Neural Network on Spatial-Temporal Sparse Data,2019-12-03
+http://arxiv.org/abs/1912.01130,2019-12-04,0.0,Addict Free -- A Smart and Connected Relapse Intervention Mobile App,2019-12-02
+http://arxiv.org/abs/1912.01127,2019-12-04,0.0,BERT for Large-scale Video Segment Classification with Test-time Augmentation,2019-12-02
+http://arxiv.org/abs/1912.01098,2019-12-04,0.0,Using Dimensionality Reduction to Optimize t-SNE,2019-12-02
+http://arxiv.org/abs/1912.00969,2019-12-04,0.0,IENet: Interacting Embranchment One Stage Anchor Free Detector for Orientation Aerial Object Detection,2019-12-02
+http://arxiv.org/abs/1912.00967,2019-12-04,0.0,Continuous Graph Neural Networks,2019-12-02
+http://arxiv.org/abs/1912.00965,2019-12-04,0.0,AP-Perf: Incorporating Generic Performance Metrics in Differentiable Learning,2019-12-02
+http://arxiv.org/abs/1912.00941,2019-12-04,0.0,FT-ClipAct: Resilience Analysis of Deep Neural Networks and Improving their Fault Tolerance using Clipped Activation,2019-12-02
+http://arxiv.org/abs/1912.00905,2019-12-04,0.0,Matrix sketching for supervised classification with imbalanced classes,2019-12-02
+http://arxiv.org/abs/1912.00852,2019-12-04,0.0,"CNNs, LSTMs, and Attention Networks for Pathology Detection in Medical Data",2019-12-02
+http://arxiv.org/abs/1912.00826,2019-12-04,0.0,Improving Model Drift for Robust Object Tracking,2019-12-02
+http://arxiv.org/abs/1912.00715,2019-12-04,0.0,Learning Bayesian networks from demographic and health survey data,2019-12-02
+http://arxiv.org/abs/1912.01557,2019-12-04,0.0,On-policy Reinforcement Learning with Entropy Regularization,2019-12-02
+http://arxiv.org/abs/1912.00680,2019-12-04,0.0,DLTPy: Deep Learning Type Inference of Python Function Signatures using Natural Language Context,2019-12-02
+http://arxiv.org/abs/1912.00671,2019-12-04,0.0,A Rigorous Theory of Conditional Mean Embeddings,2019-12-02
+http://arxiv.org/abs/1912.00650,2019-12-04,0.0,Stochastic Variational Inference via Upper Bound,2019-12-02
+http://arxiv.org/abs/1912.00634,2019-12-04,0.0,Meta-Path Constrained Random Walk Inference for Large-Scale Heterogeneous Information Networks,2019-12-02
+http://arxiv.org/abs/1912.01398,2019-12-04,0.0,TeaNet: universal neural network interatomic potential inspired by iterative electronic relaxations,2019-12-02
+http://arxiv.org/abs/1912.00609,2019-12-04,0.0,GANCoder: An Automatic Natural Language-to-Programming Language Translation Approach based on GAN,2019-12-02
+http://arxiv.org/abs/1912.00596,2019-12-04,0.0,Face Detection with Feature Pyramids and Landmarks,2019-12-02
+http://arxiv.org/abs/1912.00583,2019-12-04,0.0,Anomaly Detection in Particulate Matter Sensor using Hypothesis Pruning Generative Adversarial Network,2019-12-02
+http://arxiv.org/abs/1912.00554,2019-12-04,0.0,Road traffic reservoir computing,2019-12-02
+http://arxiv.org/abs/1912.00519,2019-12-04,0.0,Location Forensics of Media Recordings Utilizing Cascaded SVM and Pole-matching Classifiers,2019-12-01
+http://arxiv.org/abs/1912.00509,2019-12-04,0.0,Speeding up Word Mover's Distance and its variants via properties of distances between embeddings,2019-12-01
+http://arxiv.org/abs/1912.00020,2019-12-04,0.0,Model Embedded DRL for Intelligent Greenhouse Control,2019-12-01
+http://arxiv.org/abs/1912.00318,2019-12-04,0.0,DeepAtom: A Framework for Protein-Ligand Binding Affinity Prediction,2019-12-01
+http://arxiv.org/abs/1912.00303,2019-12-04,0.0,MANELA: A Multi-Agent Algorithm for Learning Network Embeddings,2019-12-01
+http://arxiv.org/abs/1912.00290,2019-12-04,0.0,XGBOD: Improving Supervised Outlier Detection with Unsupervised Representation Learning,2019-12-01
+http://arxiv.org/abs/1912.00245,2019-12-04,0.0,Scalable Graph Algorithms,2019-11-30
+http://arxiv.org/abs/1912.00233,2019-12-04,0.0,Convolutional neural networks model improvements using demographics and image processing filters on chest x-rays,2019-11-30
+http://arxiv.org/abs/1912.00163,2019-12-04,0.0,Dis-entangling Mixture of Interventions on a Causal Bayesian Network Using Aggregate Observations,2019-11-30
+http://arxiv.org/abs/1912.00124,2019-12-04,0.0,A Free Lunch in Generating Datasets: Building a VQG and VQA System with Attention and Humans in the Loop,2019-11-30
+http://arxiv.org/abs/1912.00074,2019-12-04,0.0,Quadratic Q-network for Learning Continuous Control for Autonomous Vehicles,2019-11-29
+http://arxiv.org/abs/1912.00009,2019-12-04,0.0,MSTDP: A More Biologically Plausible Learning,2019-11-29
+http://arxiv.org/abs/1912.00949,2019-12-04,0.0,Multi-Agent Deep Reinforcement Learning with Adaptive Policies,2019-11-28
+http://arxiv.org/abs/1912.01506,2019-12-04,0.0,Study of Distributed Robust Beamforming with Low-Rank and Cross-Correlation Techniques,2019-11-27
+http://arxiv.org/abs/1912.00781,2019-12-04,0.0,Experiments with a PCCoder extension,2019-11-26
+http://arxiv.org/abs/1912.00862,2019-12-04,0.0,ICD Coding from Clinical Text Using Multi-Filter Residual Convolutional Neural Network,2019-11-25
 http://arxiv.org/abs/1911.09083,2019-12-03,36962.0,Machine-learning non-stationary noise out of gravitational wave detectors,2019-11-20
 http://arxiv.org/abs/1911.10677,2019-12-03,798.0,Non-autoregressive Transformer by Position Learning,2019-11-25
 http://arxiv.org/abs/1911.00927,2019-12-03,437.0,Spot Evasion Attacks: Adversarial Examples for License Plate Recognition Systems with Convolutional Neural Networks,2019-10-27
