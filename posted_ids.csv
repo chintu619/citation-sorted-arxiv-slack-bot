@@ -1,4 +1,104 @@
 url,date,weight,title,release_date
+http://arxiv.org/abs/1912.04838,2019-12-11,96958.0,Scalability in Perception for Autonomous Driving: An Open Dataset Benchmark,2019-12-10
+http://arxiv.org/abs/1912.04363,2019-12-11,75668.0,Car Pose in Context: Accurate Pose Estimation with Ground Plane Constraints,2019-12-09
+http://arxiv.org/abs/1912.04368,2019-12-11,75130.0,Learning Non-Markovian Quantum Noise from Moiré-Enhanced Swap Spectroscopy with Deep Evolutionary Algorithm,2019-12-09
+http://arxiv.org/abs/1912.04825,2019-12-11,67149.0,Integration of Neural Network-Based Symbolic Regression in Deep Learning for Scientific Discovery,2019-12-10
+http://arxiv.org/abs/1912.04749,2019-12-11,66393.0,Efficient Differentiable Neural Architecture Search with Meta Kernels,2019-12-10
+http://arxiv.org/abs/1912.04443,2019-12-11,53866.0,AVID: Learning Multi-Stage Tasks via Pixel-Level Translation of Human Videos,2019-12-10
+http://arxiv.org/abs/1912.04462,2019-12-11,52858.0,Flow-Distilled IP Two-Stream Networks for Compressed Video ActionRecognition,2019-12-10
+http://arxiv.org/abs/1912.04441,2019-12-11,50354.0,HR-SAR-Net: A Deep Neural Network for Urban Scene Segmentation from High-Resolution SAR Data,2019-12-10
+http://arxiv.org/abs/1912.04344,2019-12-11,29683.0,Grasping in the Wild:Learning 6DoF Closed-Loop Grasping from Low-Cost Demonstrations,2019-12-09
+http://arxiv.org/abs/1912.04487,2019-12-11,29660.0,Listen to Look: Action Recognition by Previewing Audio,2019-12-10
+http://arxiv.org/abs/1912.04439,2019-12-11,25124.0,Privacy-preserving data sharing via probabilistic modelling,2019-12-10
+http://arxiv.org/abs/1912.04786,2019-12-11,23334.0,edBB: Biometrics and Behavior for Assessing Remote Education,2019-12-10
+http://arxiv.org/abs/1912.04792,2019-12-11,23244.0,On Certifying Robust Models by Polyhedral Envelope,2019-12-10
+http://arxiv.org/abs/1912.04302,2019-12-11,21618.0,DeepDeform: Learning Non-rigid RGB-D Reconstruction with Semi-supervised Data,2019-12-09
+http://arxiv.org/abs/1912.04423,2019-12-11,20651.0,"Robust, Extensible, and Fast: Teamed Classifiers for Vehicle Tracking in Multi-Camera Networks",2019-12-09
+http://arxiv.org/abs/1912.04316,2019-12-11,18283.0,STAGE: Spatio-Temporal Attention on Graph Entities for Video Action Detection,2019-12-09
+http://arxiv.org/abs/1912.04486,2019-12-11,18087.0,To Balance or Not to Balance: An Embarrassingly Simple Approach for Learning with Long-Tailed Distributions,2019-12-10
+http://arxiv.org/abs/1912.04488,2019-12-11,15753.0,SOLO: Segmenting Objects by Locations,2019-12-10
+http://arxiv.org/abs/1912.04738,2019-12-11,15204.0,Histogram Transform Ensembles for Large-scale Regression,2019-12-08
+http://arxiv.org/abs/1912.04783,2019-12-11,14878.0,Removable and/or Repeated Units Emerge in Overparametrized Deep Neural Networks,2019-12-10
+http://arxiv.org/abs/1912.04618,2019-12-11,14096.0,Deep Attention Based Semi-Supervised 2D-Pose Estimation for Surgical Instruments,2019-12-10
+http://arxiv.org/abs/1912.04832,2019-12-11,13599.0,Feature Relevance Determination for Ordinal Regression in the Context of Feature Redundancies and Privileged Information,2019-12-10
+http://arxiv.org/abs/1912.04471,2019-12-11,10861.0,Duet at TREC 2019 Deep Learning Track,2019-12-10
+http://arxiv.org/abs/1912.04573,2019-12-11,9849.0,"Classifying, Segmenting, and Tracking Object Instances in Video with Mask Propagation",2019-12-10
+http://arxiv.org/abs/1912.04836,2019-12-11,9660.0,Snoopy: Sniffing Your Smartwatch Passwords via Deep Sequence Learning,2019-12-10
+http://arxiv.org/abs/1912.04481,2019-12-11,9086.0,SMAUG: End-to-End Full-Stack Simulation Infrastructure for Deep Learning Workloads,2019-12-10
+http://arxiv.org/abs/1912.04663,2019-12-11,6749.0,3D-GMNet: Learning to Estimate 3D Shape from A Single Image As A Gaussian Mixture,2019-12-10
+http://arxiv.org/abs/1912.04461,2019-12-11,6468.0,Learning to Discriminate Information for Online Action Detection,2019-12-10
+http://arxiv.org/abs/1912.04696,2019-12-11,6070.0,The Unfairness of Popularity Bias in Music Recommendation: A Reproducibility Study,2019-12-10
+http://arxiv.org/abs/1912.04527,2019-12-11,5531.0,Learning Pose Estimation for UAV Autonomous Navigation andLanding Using Visual-Inertial Sensor Data,2019-12-10
+http://arxiv.org/abs/1912.04627,2019-12-11,5215.0,SuperNCN: Neighbourhood consensus network for robust outdoor scenes matching,2019-12-10
+http://arxiv.org/abs/1912.04511,2019-12-11,5140.0,A Finite-Time Analysis of Q-Learning with Neural Network Function Approximation,2019-12-10
+http://arxiv.org/abs/1912.04421,2019-12-11,5057.0,Basis Prediction Networks for Effective Burst Denoising with Large Kernels,2019-12-09
+http://arxiv.org/abs/1912.04643,2019-12-11,5048.0,WCE Polyp Detection with Triplet based Embeddings,2019-12-10
+http://arxiv.org/abs/1912.04734,2019-12-11,4466.0,Transformed Subspace Clustering,2019-12-10
+http://arxiv.org/abs/1912.04754,2019-12-11,4420.0,Deep Latent Factor Model for Collaborative Filtering,2019-12-10
+http://arxiv.org/abs/1912.00625,2019-12-11,4298.0,Identifying nearby sources of ultra-high-energy cosmic rays with deep learning,2019-12-02
+http://arxiv.org/abs/1912.04564,2019-12-11,3653.0,Towards Latent Space Optimality for Auto-Encoder Based Generative Models,2019-12-10
+http://arxiv.org/abs/1912.04278,2019-12-11,3490.0,Deep Efficient End-to-end Reconstruction (DEER) Network for Low-dose Few-view Breast CT from Projection Data,2019-12-09
+http://arxiv.org/abs/1912.04619,2019-12-11,3349.0,Inception Architecture and Residual Connections in Classification of Breast Cancer Histology Images,2019-12-10
+http://arxiv.org/abs/1912.04690,2019-12-11,3276.0,Reconstructing Multi-echo Magnetic Resonance Images via Structured Deep Dictionary Learning,2019-12-10
+http://arxiv.org/abs/1912.04333,2019-12-11,2829.0,3D Particle Positions from Computer Stereo Vision in PK-4,2019-12-09
+http://arxiv.org/abs/1912.04459,2019-12-11,2801.0,DeOccNet: Learning to See Through Foreground Occlusions in Light Fields,2019-12-10
+http://arxiv.org/abs/1912.04645,2019-12-11,2694.0,Neural Point Cloud Rendering via Multi-Plane Projection,2019-12-10
+http://arxiv.org/abs/1912.04485,2019-12-11,2618.0,NeuRoRA: Neural Robust Rotation Averaging,2019-12-10
+http://arxiv.org/abs/1912.04639,2019-12-11,2107.0,Introducing MANtIS: a novel Multi-Domain Information Seeking Dialogues Dataset,2019-12-10
+http://arxiv.org/abs/1912.04822,2019-12-11,1854.0,libmolgrid: GPU Accelerated Molecular Gridding for Deep Learning Applications,2019-12-10
+http://arxiv.org/abs/1912.04862,2019-12-11,1779.0,Robust Training and Initialization of Deep Neural Networks: An Adaptive Basis Viewpoint,2019-12-10
+http://arxiv.org/abs/1912.04538,2019-12-11,1706.0,Appending Adversarial Frames for Universal Video Attack,2019-12-10
+http://arxiv.org/abs/1912.04711,2019-12-11,1475.0,End-to-end facial and physiological model for \\Affective Computing and applications,2019-12-10
+http://arxiv.org/abs/1912.04523,2019-12-11,1301.0,Context-Dependent Models for Predicting and Characterizing Facial Expressiveness,2019-12-10
+http://arxiv.org/abs/1912.04521,2019-12-11,1109.0,Transfer Learning-Based Outdoor Position Recovery with Telco Data,2019-12-10
+http://arxiv.org/abs/1912.04370,2019-12-11,1050.0,Cross-Language Aphasia Detection using Optimal Transport Domain Adaptation,2019-12-04
+http://arxiv.org/abs/1912.04799,2019-12-11,1049.0,Learning Depth-Guided Convolutions for Monocular 3D Object Detection,2019-12-10
+http://arxiv.org/abs/1912.04518,2019-12-11,994.0,Arithmetic addition of two integers by deep image classification networks: experiments to quantify their autonomous reasoning ability,2019-12-10
+http://arxiv.org/abs/1912.04629,2019-12-11,978.0,Classification under local differential privacy,2019-12-10
+http://arxiv.org/abs/1912.04853,2019-12-11,884.0,Embedding Comparator: Visualizing Differences in Global Structure and Local Neighborhoods via Small Multiples,2019-12-10
+http://arxiv.org/abs/1912.04472,2019-12-11,830.0,Deep Bayesian Reward Learning from Preferences,2019-12-10
+http://arxiv.org/abs/1912.04775,2019-12-11,804.0,Pillar in Pillar: Multi-Scale and Dynamic Feature Extraction for 3D Object Detection in Point Clouds,2019-12-10
+http://arxiv.org/abs/1912.04378,2019-12-11,752.0,Depth-Width Trade-offs for ReLU Networks via Sharkovsky's Theorem,2019-12-09
+http://arxiv.org/abs/1912.04418,2019-12-11,703.0,Deep Autoencoders with Value-at-Risk Thresholding for Unsupervised Anomaly Detection,2019-12-09
+http://arxiv.org/abs/1912.04748,2019-12-11,665.0,Fraud detection in telephone conversations for financial services using linguistic features,2019-12-10
+http://arxiv.org/abs/1912.04845,2019-12-11,644.0,Magnitude and Uncertainty Pruning Criterion for Neural Networks,2019-12-10
+http://arxiv.org/abs/1912.04321,2019-12-11,636.0,Learning to Code: Coded Caching via Deep Reinforcement Learning,2019-12-09
+http://arxiv.org/abs/1912.04591,2019-12-11,385.0,Neural Voxel Renderer: Learning an Accurate and Controllable Rendering Tool,2019-12-10
+http://arxiv.org/abs/1912.04554,2019-12-11,371.0,Learning to generate new indoor scenes,2019-12-10
+http://arxiv.org/abs/1912.04884,2019-12-11,370.0,Statistically Robust Neural Network Classification,2019-12-10
+http://arxiv.org/abs/1912.04381,2019-12-11,317.0,A Dataset for measuring reading levels in India at scale,2019-11-27
+http://arxiv.org/abs/1912.04427,2019-12-11,293.0,Winning the Lottery with Continuous Sparsification,2019-12-10
+http://arxiv.org/abs/1912.04844,2019-12-11,291.0,Quantifying the Chaos Level of Infants' Environment via Unsupervised Learning,2019-12-10
+http://arxiv.org/abs/1912.04453,2019-12-11,267.0,Enhancing Learnability of classification algorithms using simple data preprocessing in fMRI scans of Alzheimer's disease,2019-12-10
+http://arxiv.org/abs/1912.04508,2019-12-11,144.0,Reducing Catastrophic Forgetting in Modular Neural Networks by Dynamic Information Balancing,2019-12-10
+http://arxiv.org/abs/1912.04536,2019-12-11,93.0,Calcaneus Radiograph Analysis System: Calcaneal Angles Measurement and Fracture Identification,2019-12-10
+http://arxiv.org/abs/1912.04357,2019-12-11,88.0,DeepMUSIC: Direction Finding via Deep Learning,2019-12-09
+http://arxiv.org/abs/1912.04514,2019-12-11,84.0,MDFN: Multi-Scale Deep Feature Learning Network for Object Detection,2019-12-10
+http://arxiv.org/abs/1912.04801,2019-12-11,83.0,Detection of Collision-Prone Vehicle Behavior at Intersections using Siamese Interaction LSTM,2019-12-10
+http://arxiv.org/abs/1912.04408,2019-12-11,77.0,Exploiting Model Sparsity in Adaptive MPC: A Compressed Sensing Viewpoint,2019-12-09
+http://arxiv.org/abs/1912.04533,2019-12-11,62.0,Exact expressions for double descent and implicit regularization via surrogate random design,2019-12-10
+http://arxiv.org/abs/1912.04478,2019-12-11,56.0,Low-rank representations with incoherent dictionary for face recognition,2019-12-10
+http://arxiv.org/abs/1912.04635,2019-12-11,47.0,Backprop Diffusion is Biologically Plausible,2019-12-10
+http://arxiv.org/abs/1912.04384,2019-12-11,44.0,Training Deep Neural Networks to Detect Repeatable 2D Features Using Large Amounts of 3D World Capture Data,2019-12-09
+http://arxiv.org/abs/1912.04556,2019-12-11,23.0,Accurate Entrance Position Detection Based on Wi-Fi and GPS Signals Using Machine Learning,2019-12-10
+http://arxiv.org/abs/1912.04391,2019-12-11,17.0,Semi-supervised Learning Approach to Generate Neuroimaging Modalities with Adversarial Training,2019-12-09
+http://arxiv.org/abs/1912.04871,2019-12-11,2.0,Deep symbolic regression: Recovering mathematical expressions from data via policy gradients,2019-12-10
+http://arxiv.org/abs/1912.04859,2019-12-11,0.0,Privacy-Preserving Blockchain Based Federated Learning with Differential Data Sharing,2019-12-10
+http://arxiv.org/abs/1912.04784,2019-12-11,0.0,A Novel Topology for End-to-end Temporal Classification and Segmentation with Recurrent Neural Network,2019-12-10
+http://arxiv.org/abs/1912.04695,2019-12-11,0.0,Transparent Classification with Multilayer Logical Perceptrons and Random Binarization,2019-12-10
+http://arxiv.org/abs/1912.04684,2019-12-11,0.0,Neural Network Based Explicit MPC for Chemical Reactor Control,2019-12-10
+http://arxiv.org/abs/1912.04672,2019-12-11,0.0,"Effects of lead position, cardiac rhythm variation and drug-induced QT prolongation on performance of machine learning methods for ECG processing",2019-12-10
+http://arxiv.org/abs/1912.04670,2019-12-11,0.0,DR-GAN: Conditional Generative Adversarial Network for Fine-Grained Lesion Synthesis on Diabetic Retinopathy Images,2019-12-10
+http://arxiv.org/abs/1912.04608,2019-12-11,0.0,Forecasting Future Sequence of Actions to Complete an Activity,2019-12-10
+http://arxiv.org/abs/1912.04563,2019-12-11,0.0,Understanding 3D CNN Behavior for Alzheimer's Disease Diagnosis from Brain PET Scan,2019-12-10
+http://arxiv.org/abs/1912.04561,2019-12-11,0.0,A Feasible Framework for Arbitrary-Shaped Scene Text Recognition,2019-12-10
+http://arxiv.org/abs/1912.04549,2019-12-11,0.0,Expansion of Cyber Attack Data From Unbalanced Datasets Using Generative Techniques,2019-12-10
+http://arxiv.org/abs/1912.04530,2019-12-11,0.0,No-Trick (Treat) Kernel Adaptive Filtering using Deterministic Features,2019-12-10
+http://arxiv.org/abs/1912.04497,2019-12-11,0.0,Feature Losses for Adversarial Robustness,2019-12-10
+http://arxiv.org/abs/1912.04465,2019-12-11,0.0,Comprehensive Soccer Video Understanding: Towards Human-comparable Video Understanding System in Constrained Environment,2019-12-10
+http://arxiv.org/abs/1912.04430,2019-12-11,0.0,HalluciNet-ing Spatiotemporal Representations Using 2D-CNN,2019-12-10
+http://arxiv.org/abs/1912.04376,2019-12-11,0.0,Modular Multimodal Architecture for Document Classification,2019-12-09
+http://arxiv.org/abs/1912.04747,2019-12-11,0.0,Oversampling Log Messages Using a Sequence Generative Adversarial Network for Anomaly Detection and Classification,2019-12-09
 http://arxiv.org/abs/1912.04070,2019-12-10,281310.0,Synthetic Humans for Action Recognition from Unseen Viewpoints,2019-12-09
 http://arxiv.org/abs/1912.04250,2019-12-10,127794.0,Self-supervised Object Motion and Depth Estimation from Video,2019-12-09
 http://arxiv.org/abs/1912.03383,2019-12-10,117872.0,Deep Distance Transform for Tubular Structure Segmentation in CT Scans,2019-12-06
