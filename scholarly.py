@@ -1,4 +1,4 @@
-"""scholarly.py (based on "github.com/scholarly-python-package/scholarly package") """
+"""scholarly.py"""
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 
@@ -44,6 +44,42 @@ _EMAILAUTHORRE = r'Verified email at '
 _SESSION = requests.Session()
 _PAGESIZE = 100
 
+
+def _handle_captcha(url):
+    # TODO: PROBLEMS HERE! NEEDS ATTENTION
+    # Get the captcha image
+    captcha_url = _HOST + '/sorry/image?id={0}'.format(g_id)
+    captcha = _SESSION.get(captcha_url, headers=_HEADERS, verify=_SSLVERIFYCRT)
+    # Upload to remote host and display to user for human verification
+    img_upload = requests.post('http://postimage.org/',
+        files={'upload[]': ('scholarly_captcha.jpg', captcha.text)})
+    print(img_upload.text)
+    img_url_soup = BeautifulSoup(img_upload.text, 'html.parser')
+    img_url = img_url_soup.find_all(alt='scholarly_captcha')[0].get('src')
+    print('CAPTCHA image URL: {0}'.format(img_url))
+    # Need to check Python version for input
+    if sys.version[0]=="3":
+        g_response = input('Enter CAPTCHA: ')
+    else:
+        g_response = raw_input('Enter CAPTCHA: ')
+    # Once we get a response, follow through and load the new page.
+    url_response = _HOST+'/sorry/CaptchaRedirect?continue={0}&id={1}&captcha={2}&submit=Submit'.format(dest_url, g_id, g_response)
+    resp_captcha = _SESSION.get(url_response, headers=_HEADERS, cookies=_COOKIES, verify=_SSLVERIFYCRT)
+    print('Forwarded to {0}'.format(resp_captcha.url))
+    return resp_captcha.url
+
+
+#def _handle_429_ERROR(url):
+#    options = webdriver.ChromeOptions()
+#    caps = DesiredCapabilities().CHROME
+#    caps["pageLoadStrategy"] = "none"
+#    driver = webdriver.Chrome(desired_capabilities=caps, options=options)
+##    driver.maximize_window()
+#    driver.get(url); time.sleep(20)
+#
+#    driver.quit()
+
+
 def _get_page(pagerequest):
     """Return the data for a page on scholar.google.com"""
     # Note that we include a sleep to avoid overloading the scholar server
@@ -52,7 +88,14 @@ def _get_page(pagerequest):
     if resp.status_code == 200:
         return resp.text
     if resp.status_code == 503:
+        # Inelegant way of dealing with the G captcha
         raise Exception('Error: {0} {1}'.format(resp.status_code, resp.reason))
+        # TODO: Need to fix captcha handling
+        # dest_url = requests.utils.quote(_SCHOLARHOST+pagerequest)
+        # soup = BeautifulSoup(resp.text, 'html.parser')
+        # captcha_url = soup.find('img').get('src')
+        # resp = _handle_captcha(captcha_url)
+        # return _get_page(re.findall(r'https:\/\/(?:.*?)(\/.*)', resp)[0])
     else:
         raise Exception('Error: {0} {1} {2} {3}'.format(resp.status_code, resp.reason, resp.text, pagerequest))
 
@@ -288,3 +331,5 @@ def search_author_custom_url(url):
     URL should be of the form '/citation?q=...'"""
     soup = _get_soup(_HOST+url)
     return _search_citation_soup(soup)
+
+#search_query = scholarly.search_author('Li Shen, Tencent')
